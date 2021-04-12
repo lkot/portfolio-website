@@ -4,7 +4,7 @@ import authorImg from "../me.jpg";
 
 const AboutMe = () => {
   return (
-    //   These e.g. "container py-5" classes are the Bootstrap classes.
+    //    These e.g. "container py-5" classes are the Bootstrap classes.
     <div className="container py-5">
       <div className="row">
         <div className="col-lg-6 col-xm-12">
