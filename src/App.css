@@ -48,6 +48,7 @@
   --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-black: #000000;
 }
 
 
@@ -61,10 +62,19 @@ body{
 nav{
   /* It will make navbar 'sit' on top of the particles. */
   z-index: 2;
+  /* color: black !important; */
+}
+
+.navbar{
+  /* background-color: var(--primary-dark-grey) !important; */
+  background-color: black !important;
 }
 
 .logo {
-  width: 16.25rem;
+  width: 12rem;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+
 }
 
 /*----- MENU LINKS --------*/
@@ -83,12 +93,14 @@ nav ul li {
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
   border-top: 0.1875rem solid var(--primary-dark);
+  
 }
 
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  color: var(--primary-white) !important;
+    /* color: black !important; */
 }
 
 @media(max-width: 768px){
@@ -109,7 +121,7 @@ nav ul li {
 
 .header-wrapper {
   position: relative;
-  background: url(wall-and-laptop-background.jpg) no-repeat;
+  background: url(background-sepia.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -245,6 +257,7 @@ nav ul li {
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
+  transition: 0.3s ease-in-out;
 }
 
 .services .box:hover {
@@ -333,10 +346,83 @@ nav ul li {
   font-weight: 900;
 }
 
+/************************ PORTFOLIO *********************************/
+.portfolio-wrapper {
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+}
+
+.portfolio-wrapper h1 {
+  color: var(--primary-orange);
+}
+
+.portfolio-image {
+  width: 15rem;
+  border: 1px solid var(--primary-orange);
+  padding: 0 0.5rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+/*------------ OVERFLOW BOX ------------------*/
+.overflow {
+  position: absolute;
+   opacity: 0;
+   background: var(--primary-black);
+   width: 15rem;
+   height: 8rem;
+   top: 0;
+  border: 1px solid var(--primary-red);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--primary-orange);
+  font-size: 1.5rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/*------------ OVERFLOW BOX ------------------*/
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer; 
+  color: var(--primary-orange);
+}
+
+.hyper-link:hover {
+  color: var(--primary-red);
+}
+
+
 /*------------ MEDIA ------------------*/
 @media(max-width: 768px) {
 .experience .container {
   padding-left: 0;
+}
+
+.portfolio-image-popupbox{
+  width:100%;
 }
 
   .experience-wrapper::before {
@@ -352,5 +438,23 @@ nav ul li {
     float: none;
     direction: ltr; 
     width: 100%;
+  }
+}
+
+@media(max-width: 570px) {
+  .popupbox-wrapper{
+    height: 100%;
+  }
+  .portfolio-image-popupbox{
+    width:50%;
+  }
+}
+
+@media(max-width: 280) {
+  .popupbox-wrapper{
+    height: 90%;
+  }
+  .portfolio-image-popupbox{
+    width:30%;
   }
 }
