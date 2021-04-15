@@ -19,7 +19,7 @@ function App() {
         params={{
           particles: {
             number: {
-              value: 30,
+              value: 70,
               density: {
                 enable: true,
                 value_area: 900,
@@ -27,10 +27,10 @@ function App() {
             },
             // The 'shape' object will basically shape the particles.
             shape: {
-              type: "star",
+              type: "circle",
               stroke: {
                 width: 6,
-                color: "#f9ab00",
+                color: "#B4E6FB",
               },
             },
           },
