@@ -15,7 +15,7 @@ const Footer = () => {
     <div id="footer" className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-6">
+          {/* <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
               <p>Address: Zielona Gora, Poland.</p>
             </div>
@@ -25,8 +25,8 @@ const Footer = () => {
             <div className="d-flex">
               <p>lukasz.kot@hotmail.com</p>
             </div>
-          </div>
-          <div className="col-lg-3 col-md-2 col-sm-6">
+          </div> */}
+          {/* <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
                 <a className="footer-nav">Home</a>
@@ -43,9 +43,10 @@ const Footer = () => {
                 <a className="footer-nav">Contacts</a>
               </div>
             </div>
-          </div>
-          <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
-            <div className="d-flex justify-content-center">
+          </div> */}
+          {/* <div className="col-lg-5 col-md-5 col-sm-6 align-items-center"> */}
+          <div className="align-items-center">
+            {/* <div className="d-flex justify-content-center">
               <FacebookShareButton
                 url={"https://www.youtube.com/8020coding"}
                 quote={"FullStack Developer"}
@@ -74,7 +75,7 @@ const Footer = () => {
               >
                 <LinkedinIcon className="mx-3" size={36} />
               </LinkedinShareButton>
-            </div>
+            </div> */}
             <p className="pt-3 text-center">
               Copyright&copy;
               {new Date().getFullYear()}&nbsp;Lukasz Kot | All Rights Reserved

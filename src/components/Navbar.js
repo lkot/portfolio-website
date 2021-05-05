@@ -44,7 +44,7 @@ const Navbar = () => {
                 className="nav-link"
                 href="#"
               >
-                services
+                technologies
               </Link>
             </li>
             <li className="nav-item">

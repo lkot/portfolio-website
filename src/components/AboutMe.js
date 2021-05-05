@@ -15,26 +15,18 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">about me</h1>
           <p>
-            Hello! I am Łukasz. I have been developing websites for over 5
-            years. I'm Full-Stack Web Developer. Technologies I use is
-            MERN(MongoDB, Express, ReactJS and NodeJS). I create responsive
-            websites that are displayed on all devices desktops and smartphones.
+            I find myself as a team player and strongly value the true team
+            spirit. Always eager to expand and improve my programming skills. At
+            the start of my career I have already acquired some experience
+            working both with back-end and front-end.
             <br />
             <br />
-            Of course, before I begin developing any webapp, Landing Page,
-            Business Website or E-commerce, I need to have a ready-made project
-            layout (sketch). I’m ready to do this for you, before we start
-            developing your website, we will discuss all the details of your
-            niche with you, I will conduct a survey of your competitors and make
-            a list of their advantages and weaknesses.
+            Currently I am aspiring to become a Front-end Developer as this part
+            of programming brings me the most fun. However I am eager to join
+            and help to develop all kinds of projects. Definitely I am no
+            stranger to the new tasks and challenges.
             <br />
             <br />
-            All this is necessary to give your customers something that your
-            competitors do not provide, or to present it too, but better! After
-            the website is finished and ready to deploy and sell a product or
-            service. It is essential that your potential clients know about you.
-            I will create an advertising campaign for you in Google Adwords and
-            Facebook!
           </p>
         </div>
       </div>

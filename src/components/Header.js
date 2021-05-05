@@ -9,7 +9,10 @@ const Header = () => {
       <div className="main-info">
         <canvas></canvas>
         {/* <h1>Hi! I'm Łukasz Kot, your future Software Developer!</h1> */}
-        <h1>Hi there, I'm Łukasz Kot. Let's work together!</h1>
+        <h1>
+          {/* Hi there, I'm Łukasz the Software Developer. Let's work together! */}
+          Hi, I'm Łukasz the Software Ninja. Let's work together!
+        </h1>
         {/* Using React-Typed package to display 'writing text animatiom'. */}
         <Typed
           className="typed-text"

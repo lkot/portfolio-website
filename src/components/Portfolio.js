@@ -1,8 +1,8 @@
 import React from "react";
-import netflix from "../images/img1.jpg";
-import cityGuide from "../images/img2.jpg";
-import portfolio from "../images/img3.jpg";
-import taskManager from "../images/img4.jpg";
+import netflix from "../images/img3.jpg";
+import cityGuide from "../images/img4.jpg";
+import portfolio from "../images/img5.jpg";
+import taskManager from "../images/img2.jpg";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -10,9 +10,7 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
-// Refactor it later on and make an object where I pass
-// the portfolio object values (DRY rule !!!).
-const Portfolio = () => {
+const Pofrfolio = () => {
   // Netflix
   const openPopupboxNetflix = () => {
     const content = (
@@ -29,9 +27,11 @@ const Portfolio = () => {
         <b>GitHub:</b>{" "}
         <a
           className="hyper-link"
-          onClick={() => window.open("https://github.com/")}
+          onClick={() =>
+            window.open("https://github.com/8020Coding/netflix-project")
+          }
         >
-          https://github.com/8020Coding/netflix-project
+          https://github.com/
         </a>
       </>
     );
@@ -83,7 +83,7 @@ const Portfolio = () => {
             )
           }
         >
-          https://github.com/8020Coding/city-guide-app
+          https://github.com/
         </a>
       </>
     );
@@ -132,7 +132,7 @@ const Portfolio = () => {
             window.open("https://github.com/8020Coding/portfilio", "_blank")
           }
         >
-          https://github.com/8020Coding/portfilio
+          https://github.com/
         </a>
       </>
     );
@@ -181,7 +181,7 @@ const Portfolio = () => {
             window.open("https://github.com/8020Coding/task-manager", "_blank")
           }
         >
-          https://github.com/8020Coding/task-manager
+          https://github.com/
         </a>
       </>
     );
@@ -254,4 +254,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Pofrfolio;

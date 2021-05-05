@@ -22,9 +22,8 @@ const TestimonialsCarousel = () => {
         <div className="myCarousel">
           <h3>Australia & New Zealand Challenge</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            ratione sequi saepe dicta blanditiis, molestias eum excepturi quod
-            fugiat veniam!
+            In 2019 I made few months long solo trip around Australia and New
+            Zealand only by hitchhiking covering over 15 000km.
           </p>
         </div>
       </>
@@ -33,9 +32,10 @@ const TestimonialsCarousel = () => {
         <div className="myCarousel">
           <h3>Journey Around the World</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            ratione sequi saepe dicta blanditiis, molestias eum excepturi quod
-            fugiat veniam!
+            As a member of project called “Z indexem w podróży”, sponsored by
+            many companies, I organized and participated in a trip around the
+            World. The journey resulted in episodes (made by our team)
+            broadcasted by Telewizja Polska and on a YouTube platform.
           </p>
         </div>
       </>
@@ -44,20 +44,19 @@ const TestimonialsCarousel = () => {
         <div className="myCarousel">
           <h3>Organizer of Travel Festival</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            ratione sequi saepe dicta blanditiis, molestias eum excepturi quod
-            fugiat veniam!
+            Participated in the realization of nationwide travel festival called
+            Zielone Globy.
           </p>
         </div>
       </>
       <>
         <img src={avatar4} alt="John Doe 4" />
         <div className="myCarousel">
-          <h3>John Doe 4</h3>
+          <h3>Endeavours</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            ratione sequi saepe dicta blanditiis, molestias eum excepturi quod
-            fugiat veniam!
+            In years 2013 and 2014 I’ve completed the Ironman 70.3 triathlon in
+            Austria and Poland. In August 2017 I have ascended Caucasian
+            five-thousander – Mount Kazbek in Georgia.
           </p>
         </div>
       </>

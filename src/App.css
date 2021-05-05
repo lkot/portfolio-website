@@ -192,7 +192,7 @@ nav ul li {
 .btn-main-offer:hover {
   text-decoration: none;
   color: var(--primary-white);
-  background-color: var(--primary-black);
+  background: var(--primary-standard-blue);
   transition:  .2s ease-in-out;
   transform: scale(1.05);
   opacity: 100%;
@@ -232,6 +232,7 @@ nav ul li {
 }
 
 .about-heading {
+  padding-top: 9rem;
   color: var(--primary-standard-blue);
   text-transform: uppercase;
   font-weight: bold !important;
@@ -622,6 +623,11 @@ nav ul li {
   background: none;
   color: var(--primary-black);
   background: var(--primary-light-grey);
+}
+
+.contact-btn:hover {
+  color: var(--primary-white);
+  background: var(--primary-standard-blue);
 }
 
 .line {
