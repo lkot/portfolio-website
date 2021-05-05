@@ -1,23 +1,18 @@
 import React from "react";
+import "./Technologies.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookF,
-  faGoogle,
   faReact,
   faJsSquare,
   faCss3Alt,
   faHtml5,
   faBootstrap,
 } from "@fortawesome/free-brands-svg-icons";
-import {
-  faDesktop,
-  faFileCode,
-  faDatabase,
-} from "@fortawesome/free-solid-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
-const Services = () => {
+const Technologies = () => {
   return (
-    <div id="services" className="services">
+    <div id="technologies" className="technologies">
       <h1 className="py-5">Frameworks & Technologies</h1>
       <div className="container">
         <div className="row">
@@ -89,4 +84,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Technologies;

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -77,8 +78,8 @@ const Footer = () => {
               </LinkedinShareButton>
             </div> */}
             <p className="pt-3 text-center">
-              Copyright&copy;
-              {new Date().getFullYear()}&nbsp;Lukasz Kot | All Rights Reserved
+              Copyright &copy; {new Date().getFullYear()}&nbsp; | Łukasz Kot |
+              All Rights Reserved
             </p>
           </div>
         </div>

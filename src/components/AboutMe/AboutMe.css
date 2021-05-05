@@ -1,0 +1,29 @@
+/************************ ABOUT ME *********************************/
+.photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 16rem;
+    border-radius: 10px;
+    padding: .3rem;
+    margin-top: 7rem;
+    align-items: center;
+    border: 1px solid var(--primary-grey);
+    /* background-position-y:58vw !important; */
+  }
+  
+  .about-heading {
+    padding-top: 9rem;
+    color: var(--primary-standard-blue);
+    text-transform: uppercase;
+    font-weight: bold !important;
+  }
+  
+  @media(max-width: 468px) {
+    .profile-img {
+      width: 10rem;
+    }
+  }

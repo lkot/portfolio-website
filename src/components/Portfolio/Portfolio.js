@@ -1,8 +1,9 @@
 import React from "react";
-import netflix from "../images/img3.jpg";
-import cityGuide from "../images/img4.jpg";
-import portfolio from "../images/img5.jpg";
-import taskManager from "../images/img2.jpg";
+import "./Portfolio.css";
+import taskManager from "../../images/img2.jpg";
+import netflix from "../../images/img3.jpg";
+import cityGuide from "../../images/img4.jpg";
+import portfolio from "../../images/img5.jpg";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";

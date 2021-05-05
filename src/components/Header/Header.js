@@ -1,7 +1,9 @@
 import React from "react";
 import Typed from "react-typed";
-import ButtonHover from "./Button";
-import "./ButtonStyles.css";
+// import ButtonHover from "./Button";
+import "./../ButtonStyles.css";
+import "./Header.css";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -11,8 +13,9 @@ const Header = () => {
         {/* <h1>Hi! I'm Łukasz Kot, your future Software Developer!</h1> */}
         <h1>
           {/* Hi there, I'm Łukasz the Software Developer. Let's work together! */}
-          Hi, I'm Łukasz the Software Ninja. Let's work together!
+          Hey, I'm Łukasz the Junior Software Developer.
         </h1>
+        <h1>Let's work together!</h1>
         {/* Using React-Typed package to display 'writing text animatiom'. */}
         <Typed
           className="typed-text"
@@ -30,9 +33,18 @@ const Header = () => {
           loop
         />
         {/* Later on I'll refactor the code for Router Links. */}
-        <a href="#" className="btn-main-offer">
+        {/* <a href="#" className="btn-main-offer">
           contact me
-        </a>
+        </a> */}
+        <Link
+          smooth={true}
+          to="contacts"
+          // offset={-80}
+          className="btn-main-offer"
+          href="#"
+        >
+          Contact me
+        </Link>
         {/* <ButtonHover /> */}
       </div>
     </div>

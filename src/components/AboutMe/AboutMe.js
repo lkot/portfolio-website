@@ -1,6 +1,7 @@
 // import classes from "*.module.sass";
 import React from "react";
-import authorImg from "../me.jpg";
+import authorImg from "../../me.jpg";
+import "./AboutMe.css";
 
 const AboutMe = () => {
   return (

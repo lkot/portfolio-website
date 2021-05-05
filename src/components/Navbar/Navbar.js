@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../logo-luk-kot-SD-2.png";
+import "./Navbar.css";
+import logo from "./logo-luk-kot-SD-2.png";
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -9,9 +10,9 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link smooth={true} to="home" offset={-80}>
           <img className="logo" src={logo} alt="logo..." />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -26,11 +27,11 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
+            {/* <li className="nav-item active">
               <Link smooth={true} to="home" className="nav-link" href="#">
                 Home <span className="sr-only">(current)</span>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link smooth={true} to="about" offset={-80} className="nav-link">
                 about me
@@ -39,7 +40,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link
                 smooth={true}
-                to="services"
+                to="technologies"
                 offset={-80}
                 className="nav-link"
                 href="#"
@@ -67,7 +68,16 @@ const Navbar = () => {
                 portfolio
               </Link>
             </li>
-
+            <li className="nav-item">
+              <Link
+                smooth={true}
+                to="ventures"
+                offset={-80}
+                className="nav-link"
+              >
+                ventures
+              </Link>
+            </li>{" "}
             <li className="nav-item">
               <Link
                 smooth={true}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Contacts.css";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 
@@ -40,9 +41,7 @@ const Contacts = () => {
     emailjs
       .send(serviceID, templateID, variables, userID)
       .then(() => {
-        setSuccessMessage(
-          "Form sent successfully! I'll contact you as soon as possible."
-        );
+        setSuccessMessage("Email sent successfully!");
       })
       .catch((err) => console.error(`Something went wrong ${err}`));
     // Adding some error text information using backticks ``.
