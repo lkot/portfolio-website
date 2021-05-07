@@ -3,10 +3,10 @@ import "./Ventures.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // AVATARS IMPORTS
-import avatar1 from "../../images/avatars/avatar-1.png";
-import avatar2 from "../../images/avatars/avatar-2.png";
-import avatar3 from "../../images/avatars/avatar-3.png";
-import avatar4 from "../../images/avatars/avatar-4.png";
+import avatar1 from "../../images/avatars/avatar-boomerang.png";
+import avatar2 from "../../images/avatars/avatar-globe.png";
+import avatar3 from "../../images/avatars/avatar-compass.png";
+import avatar4 from "../../images/avatars/avatar-run.png";
 
 const TestimonialsCarousel = () => {
   return (
@@ -16,12 +16,12 @@ const TestimonialsCarousel = () => {
       showThumbs={false}
       showStatus={false}
       autoPlay={true}
-      interval={3000}
+      interval={8000}
     >
       <>
         <img src={avatar1} alt="John Doe 1" />
         <div className="myCarousel">
-          <h3>Australia & New Zealand Challenge</h3>
+          <h3>New Zealand & Australia Solo Challenge</h3>
           <p>
             In 2019 I made few months long solo trip around Australia and New
             Zealand only by hitchhiking covering over 15 000km.
@@ -33,11 +33,23 @@ const TestimonialsCarousel = () => {
         <div className="myCarousel">
           <h3>Journey Around the World</h3>
           <p>
-            As a member of project called “Z indexem w podróży”, sponsored by
-            many companies, I organized and participated in a trip around the
-            World. The journey resulted in episodes (made by our team)
-            broadcasted by Telewizja Polska and on a YouTube platform.
+            Organized and participated in a journey around the World as a member
+            of project called “Z indexem w podróży”. Venture partially sponsored
+            by multiple sponsors with whom our team personally established
+            collaboration. The journey resulted in episodes made by our team and
+            broadcasted by Polish National Television as well as on a YouTube
+            platform.
           </p>
+          <a href="https://www.facebook.com/zindexemwpodrozy" target="_blank">
+            Facebook Fanpage - Z indexem w podróży
+          </a>
+          <br />
+          <a
+            href="https://www.youtube.com/user/zindexemwpodrozy"
+            target="_blank"
+          >
+            YouTube Channel - Z indexem w podróży
+          </a>
         </div>
       </>
       <>
@@ -48,6 +60,9 @@ const TestimonialsCarousel = () => {
             Participated in the realization of nationwide travel festival called
             Zielone Globy.
           </p>
+          <a href="https://www.facebook.com/zielonegloby" target="_blank">
+            Facebook Fanpage - Zielona Globy Festival
+          </a>
         </div>
       </>
       <>
@@ -56,8 +71,11 @@ const TestimonialsCarousel = () => {
           <h3>Endeavours</h3>
           <p>
             In years 2013 and 2014 I’ve completed the Ironman 70.3 triathlon in
-            Austria and Poland. In August 2017 I have ascended Caucasian
-            five-thousander – Mount Kazbek in Georgia.
+            Austria and Poland, repectively.
+          </p>
+          <p>
+            In August 2017 I have ascended Caucasian five-thousander – Mount
+            Kazbek in Georgia.
           </p>
         </div>
       </>

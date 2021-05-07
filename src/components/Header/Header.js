@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-// import ButtonHover from "./Button";
+import ButtonHover from "./../Button";
 import "./../ButtonStyles.css";
 import "./Header.css";
 import { Link } from "react-scroll";
@@ -16,17 +16,22 @@ const Header = () => {
           Hey, I'm Łukasz the Junior Software Developer.
         </h1>
         <h1>Let's work together!</h1>
-        {/* Using React-Typed package to display 'writing text animatiom'. */}
+        {/* Using React-Typed package to display 'writing text animation'. */}
         <Typed
           className="typed-text"
           strings={[
             "ReactJS",
-            "ASP.NET MVC Core",
-            "Transact-SQL",
-            "HTML/CSS",
+            "ASP.NET MVC 5",
+            "HTML 5",
+            "CSS 3",
             "Bootstrap 5",
+            "GitHub",
             "JavaScript",
+            "C#",
             "Entity Framework",
+            "NPM",
+            "VSCode",
+            "MySQL",
           ]}
           typeSpeed={40}
           backSpeed={60}
@@ -45,7 +50,7 @@ const Header = () => {
         >
           Contact me
         </Link>
-        {/* <ButtonHover /> */}
+        {/* <ButtonHover/> */}
       </div>
     </div>
   );

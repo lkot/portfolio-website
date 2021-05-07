@@ -17,7 +17,8 @@ button {
     margin: auto;
     padding: 19px 22px;
     transition: all 0.2s ease;
-    color: #fff;
+    /* color: var(--primary-standard-blue) !important; */
+    color: var(--primary-white) !important;
   }
   .cta:before {
     content: "";
@@ -27,7 +28,10 @@ button {
     display: block;
     border-radius: 28px;
 
-    background: rgba(255, 171, 157, 0.5);
+    /* background: rgba(255, 171, 157, 0.5); */
+    background: var(--primary-grey);
+    color: #fff !important;
+
     width: 56px;
     height: 56px;
     transition: all 0.3s ease;
@@ -60,6 +64,11 @@ button {
     background: #ffab9d;
     cursor:pointer;
   }
+
+  .cta:hover{
+    color: black;
+  }
+
   .cta:hover svg {
     transform: translateX(0);
   }

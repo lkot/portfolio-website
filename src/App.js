@@ -10,6 +10,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Ventures from "./components/Ventures/Ventures";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
+import NewNavbar from "./components/Navbar/NewNavbar";
 
 function App() {
   return (
@@ -36,12 +37,13 @@ function App() {
           },
         }}
       />
+      {/* <NewNavbar /> */}
       <Navbar />
       <Header />
       <AboutMe />
+      <Portfolio />
       <Technologies />
       <Experience />
-      <Portfolio />
       <Ventures />
       <Contacts />
       <Footer />

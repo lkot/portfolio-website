@@ -6,7 +6,7 @@ const Experience = () => {
     <div id="experience" className="experience">
       {/* These e.g. classes below are the Bootstrap classes. */}
       <div className="d-flex justify-content-center my-5">
-        <h1>experience & education</h1>
+        <h1>Education & Experience</h1>
       </div>
       <div className="container experience-wrapper">
         {/* - */}
@@ -154,16 +154,18 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2020</h3>
+            <h3>2020 - 2021</h3>
             <h4>February 2020</h4>
             <p>
-              TOEIC (Test of English of International Communication) - C2 level.
+              TOEIC (Test of English of International Communication) - C2 level
+              (905 out of 990 points).
             </p>
 
             <hr />
 
             <h4>April 2020 - Currently</h4>
-            <h5>Part-time Junior Software Developer | catsSoft IT Systems</h5>
+            <h4>Part-time Junior Software Developer</h4>
+            <h5>catsSoft IT Systems</h5>
             <p>
               Developing applications and functionalities based on ASP.NET MVC 5
               framework, along with technologies such as HTML/CSS, Bootstrap or
@@ -173,12 +175,13 @@ const Experience = () => {
             <hr />
 
             <h4>October 2020 - Currently</h4>
-            <h4>Kozminski University | Warsaw, Poland</h4>
+            <h4>Kozminski University | Warsaw | Poland</h4>
             <h5>Part-time Master of Science studies.</h5>
             <p>
-              Faculty of Master in Management conducted fully in English
-              language with specialisation in Project Management.
+              Faculty of Master in Management with specialisation in Project
+              Management.
             </p>
+            <p> Studies conducted entirely in English language.</p>
           </div>
         </div>
       </div>

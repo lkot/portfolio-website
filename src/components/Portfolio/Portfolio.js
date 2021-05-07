@@ -1,9 +1,9 @@
 import React from "react";
 import "./Portfolio.css";
-import taskManager from "../../images/img2.jpg";
-import netflix from "../../images/img3.jpg";
-import cityGuide from "../../images/img4.jpg";
-import portfolio from "../../images/img5.jpg";
+import taskManager from "../../images/undraw-press-play.png";
+import netflix from "../../images/undraw-portfolio-website.png";
+import cityGuide from "../../images/undraw-react.png";
+import portfolio from "../../images/undraw-website.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -11,7 +11,7 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
-const Pofrfolio = () => {
+const Portfolio = () => {
   // Netflix
   const openPopupboxNetflix = () => {
     const content = (
@@ -21,18 +21,20 @@ const Pofrfolio = () => {
           src={netflix}
           alt="Netflix Clone Project..."
         />
+        <hr />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+          KrewSystem is a further development of Blood Donation Center System
+          via implementation of web portal for servicing blood donors.
+          Application is an extension of already existing BDC's system and is
+          dedicated for local departments of Lubuskie region located in 5 other
+          cities.
         </p>
-        <b>GitHub:</b>{" "}
+        <b>Website:</b>{" "}
         <a
           className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/8020Coding/netflix-project")
-          }
+          onClick={() => window.open("https://catssoft.pl/")}
         >
-          https://github.com/
+          https://catssoft.pl/
         </a>
       </>
     );
@@ -42,7 +44,7 @@ const Pofrfolio = () => {
   const popupboxConfigNetflix = {
     titleBar: {
       enable: true,
-      text: "Netflix clone project.",
+      text: "Portfolio Projects.",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -57,11 +59,12 @@ const Pofrfolio = () => {
           src={cityGuide}
           alt="City Guide App Project..."
         />
+        <hr />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+          My own portoflio website. Technologies used: ReactJS, Bootstrap, CSS,
+          HTML.
         </p>
-        <b>Demo:</b>{" "}
+        {/* <b>Demo:</b>{" "}
         <a
           className="hyper-link"
           onClick={() =>
@@ -73,16 +76,11 @@ const Pofrfolio = () => {
         >
           https://city-guide-app-project.herokuapp.com/
         </a>
-        <br />
-        <b>GitHub:</b>{" "}
+        <br /> */}
+        <b>Website:</b>{" "}
         <a
           className="hyper-link"
-          onClick={() =>
-            window.open(
-              "https://github.com/8020Coding/city-guide-app",
-              "_blank"
-            )
-          }
+          onClick={() => window.open("https://lukaszkot.biz", "_blank")}
         >
           https://github.com/
         </a>
@@ -94,7 +92,7 @@ const Pofrfolio = () => {
   const popupboxConfigCityGuide = {
     titleBar: {
       enable: true,
-      text: "City Guide App project.",
+      text: "Portfolio Projects.",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -143,7 +141,7 @@ const Pofrfolio = () => {
   const popupboxConfigPortfolio = {
     titleBar: {
       enable: true,
-      text: "Poftfolio React and Material UI project.",
+      text: "Portfolio Projects.",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -192,7 +190,7 @@ const Pofrfolio = () => {
   const popupboxConfigTaskManager = {
     titleBar: {
       enable: true,
-      text: "Task Manager React and Redux project.",
+      text: "Portfolio Projects.",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -201,7 +199,7 @@ const Pofrfolio = () => {
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">portfolio</h1>
+        <h1 className="text-uppercase text-center py-5">Projects' Portfolio</h1>
         <div className="image-box-wrapper row justify-content-center">
           <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
             <img
@@ -247,12 +245,14 @@ const Pofrfolio = () => {
           </div>
         </div>
       </div>
-      <PopupboxContainer {...popupboxConfigNetflix} />
-      <PopupboxContainer {...popupboxConfigCityGuide} />
-      <PopupboxContainer {...popupboxConfigPortfolio} />
-      <PopupboxContainer {...popupboxConfigTaskManager} />
+      <div>
+        <PopupboxContainer {...popupboxConfigNetflix} />
+        <PopupboxContainer {...popupboxConfigCityGuide} />
+        <PopupboxContainer {...popupboxConfigPortfolio} />
+        <PopupboxContainer {...popupboxConfigTaskManager} />
+      </div>
     </div>
   );
 };
 
-export default Pofrfolio;
+export default Portfolio;

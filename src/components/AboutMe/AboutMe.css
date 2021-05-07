@@ -1,4 +1,9 @@
 /************************ ABOUT ME *********************************/
+.about{
+  background: var(--primary-light-grey);
+  /* background: var(--primary-white); */
+}
+
 .photo-wrap {
     display: flex;
     justify-content: center;
@@ -12,12 +17,13 @@
     margin-top: 7rem;
     align-items: center;
     border: 1px solid var(--primary-grey);
+    /* border: 1px solid var(--primary-light-grey); */
     /* background-position-y:58vw !important; */
   }
   
   .about-heading {
     padding-top: 9rem;
-    color: var(--primary-standard-blue);
+    color: var(--primary-dark);
     text-transform: uppercase;
     font-weight: bold !important;
   }
