@@ -96,7 +96,6 @@ nav {
 
 	nav {
 		height: 14vh !important;
-		/* filter: opacity(50%); */
 	}
 
 	.logo {
@@ -149,6 +148,30 @@ nav {
 		letter-spacing: 0.1rem;
 	}
 }
+
+/* @media screen and (min-width: 568px){
+	nav {
+		height: 100px !important;
+	}
+
+    .nav-links {
+		position: fixed;
+		right: 0px;
+		top: 100px;
+		background-color: black;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		transform: translateX(100%);
+		filter: opacity(90%);
+		transition: transform 0.5s ease-in;
+	}
+
+    .nav-links a {
+		font-size: .2rem !important;
+	}
+} */
 
 .nav-active {
 	transform: translateX(0%);

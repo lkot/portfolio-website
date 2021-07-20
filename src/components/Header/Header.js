@@ -18,7 +18,7 @@ const Header = () => {
 			duration: 3000,
 			once: true,
 		});
-	}, []);
+	});
 
 	return (
 		<div id='home' className='header-wrapper'>
@@ -26,7 +26,7 @@ const Header = () => {
 				{/* <canvas></canvas> */}
 				{/* <div className="photo-wrap"> */}
 				<img
-					className='profile-img'
+					className='profile-img img-fluid'
 					src={authorImg}
 					alt='author...'
 					data-aos='fade-down'
