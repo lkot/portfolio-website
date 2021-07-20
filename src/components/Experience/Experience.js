@@ -138,8 +138,8 @@ const Experience = () => {
 					<div className='timeline-content' data-aos='slide-left'>
 						<h3>2019 ~ 2020</h3>
 						{/* <h4>October 2017</h4> */}
-						<h4>October 2019 ~ March 2020</h4>
-						<h5>Half-year stay in the United Kingdom for work purposes.</h5>
+						<h4>October 2019 ~ June 2020</h4>
+						<h5>9-months stay in the United Kingdom for work purposes.</h5>
 						<p>
 							· Data Analyst / Machine Operator at The Amtico Co Ltd (Coventry,
 							West Midlands, England)
@@ -160,7 +160,7 @@ const Experience = () => {
 
 						<hr />
 
-						<h4>April 2020 ~ Currently</h4>
+						<h4>July 2020 ~ Currently</h4>
 						<h4>Junior Software Developer</h4>
 						<h5>catsSoft IT Systems</h5>
 						<p>
