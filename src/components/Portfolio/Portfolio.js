@@ -1,33 +1,50 @@
 import React from "react";
 import "./Portfolio.css";
-import taskManager from "../../images/undraw-press-play.png";
-import netflix from "../../images/undraw-portfolio-website.png";
-import cityGuide from "../../images/undraw-react.png";
-import portfolio from "../../images/undraw-website.png";
+import ImgPressPlay from "../../images/img_press_play.svg";
+import ImgPortfolioWeb from "../../images/img_portfolio_website.svg";
+import ImgReactIcon from "../../images/img_react.svg";
+import ImgWebsite from "../../images/img_static_website.svg";
+// import VideoExample from "../../videos/examplary-video.mp4";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
+import Vimeo from "@u-wave/react-vimeo";
 
 const Portfolio = () => {
+  // const [playPause, setPlayPause] = useState(false);
+  // const changeNav = () => {
+
+  // };
+
+  // var myVideo = document.getElementById("myVideo");
+
+  // function playPause() {
+  //   if (myVideo.paused) myVideo.play();
+  //   else myVideo.pause();
+  // }
+
   // Netflix
   const openPopupboxNetflix = () => {
     const content = (
       <>
         <img
           className="portfolio-image-popupbox"
-          src={netflix}
+          src={ImgReactIcon}
           alt="Netflix Clone Project..."
         />
         <hr />
+        <div className="portfolio-techs">
+          <b>Frameworks, technologies & libraries used: </b>{" "}
+          <p>ReactJS • HTML5 • CSS3</p>
+        </div>
         <p>
-          KrewSystem is a further development of Blood Donation Center System
-          via implementation of web portal for servicing blood donors.
-          Application is an extension of already existing BDC's system and is
-          dedicated for local departments of Lubuskie region located in 5 other
-          cities.
+          The official catsSoft IT Services company website, with a
+          functionality to be displayed in three different languages. Webpage
+          implemented using such solutions as React Router, React Link, styled
+          components & EmailsJS.
         </p>
         <b>Website:</b>{" "}
         <a
@@ -35,6 +52,16 @@ const Portfolio = () => {
           onClick={() => window.open("https://catssoft.pl/")}
         >
           https://catssoft.pl/
+        </a>
+        <br />
+        <b>GitHub:</b>{" "}
+        <a
+          className="hyper-link"
+          onClick={() =>
+            window.open("https://github.com/lkot/catssoft-webpage", "_blank")
+          }
+        >
+          https://github.com/lkot/catssoft-webpage
         </a>
       </>
     );
@@ -56,33 +83,31 @@ const Portfolio = () => {
       <>
         <img
           className="portfolio-image-popupbox"
-          src={cityGuide}
+          src={ImgPortfolioWeb}
           alt="City Guide App Project..."
         />
         <hr />
-        <p>
-          My own portoflio website. Technologies used: ReactJS, Bootstrap, CSS,
-          HTML.
-        </p>
-        {/* <b>Demo:</b>{" "}
-        <a
-          className="hyper-link"
-          onClick={() =>
-            window.open(
-              "https://city-guide-app-project.herokuapp.com/",
-              "_blank"
-            )
-          }
-        >
-          https://city-guide-app-project.herokuapp.com/
-        </a>
-        <br /> */}
+        <div className="portfolio-techs">
+          <b>Frameworks, technologies & libraries used: </b>{" "}
+          <p>ReactJS • HTML5 • CSS3 • Bootstrap</p>
+        </div>
+        <p>My own fully responsive portoflio website.</p>
         <b>Website:</b>{" "}
         <a
           className="hyper-link"
-          onClick={() => window.open("https://lukaszkot.biz", "_blank")}
+          onClick={() => window.open("https://lukaszkot.biz/", "_blank")}
         >
-          https://github.com/
+          https://lukaszkot.biz/
+        </a>
+        <br />
+        <b>GitHub:</b>{" "}
+        <a
+          className="hyper-link"
+          onClick={() =>
+            window.open("https://github.com/lkot/portfolio-website", "_blank")
+          }
+        >
+          https://github.com/lkot/portfolio-website
         </a>
       </>
     );
@@ -104,14 +129,22 @@ const Portfolio = () => {
       <>
         <img
           className="portfolio-image-popupbox"
-          src={portfolio}
+          src={ImgPressPlay}
           alt="Portfolio Project..."
         />
+        <hr />
+        <div className="portfolio-techs">
+          <b>Frameworks, technologies & libraries used: </b>{" "}
+          <p>ASP.NET MVC 5 • EntityFramework • HTML5 • CSS3 • Bootstrap.</p>
+        </div>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+          KrewSystem is a further development of Blood Donation Center System
+          via implementation of web portal for servicing blood donors.
+          Application is an extension of already existing BDC's system and is
+          dedicated for local departments of Lubuskie region located in 5 other
+          cities.
         </p>
-        <b>Demo:</b>{" "}
+        {/* <b>Demo:</b>{" "}
         <a
           className="hyper-link"
           onClick={() =>
@@ -123,15 +156,14 @@ const Portfolio = () => {
         >
           https://portfolio-rea-and-material-ui.herokuapp.com/
         </a>
-        <br />
-        <b>GitHub:</b>{" "}
+        <br /> */}
+        {/* <b>GitHub:</b>{" "} */}
+        <b>Video:</b>{" "}
         <a
           className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/8020Coding/portfilio", "_blank")
-          }
+          onClick={() => window.open("https://vimeo.com/555818973", "_blank")}
         >
-          https://github.com/
+          https://vimeo.com/KrewSystem
         </a>
       </>
     );
@@ -151,16 +183,44 @@ const Portfolio = () => {
   const openPopupboxTaskManager = () => {
     const content = (
       <>
-        <img
+        {/* <img
           className="portfolio-image-popupbox"
-          src={taskManager}
+          src={ImgWebsite}
           alt="Task Manager React and Redux Project..."
-        />
+        /> */}
+        {/* <div>
+          <button onClick={playPause}>Play/Pause</button>
+          <button onClick="makeBig()">Big</button>
+          <button onClick="makeSmall()">Small</button>
+          <button onClick="makeNormal()">Normal</button>
+          <video
+            id="myVideo"
+            className="portfolio-image-popupbox"
+            src={VideoExample}
+            autoPlay
+            loop
+            type="video/mp4"
+          />
+        </div> */}
+        {/* <video
+          className="portfolio-image-popupbox"
+          src={VideoExample}
+          autoPlay
+          loop
+          type="video/mp4"
+        /> */}
+        <Vimeo video="555818973" className="vimeo-video" />
+        <hr />
+        <div className="portfolio-techs">
+          <b>Frameworks, technologies & libraries used: </b>{" "}
+          <p>ASP.NET MVC 5 • EntityFramework • HTML5 • CSS3 • Bootstrap.</p>
+        </div>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+          KrewSystem.Sms is a further further development of existing Blood
+          Donation Center. An application which main functionality is to send
+          various short text messages as a notification for donors.
         </p>
-        <b>Demo:</b>{" "}
+        {/* <b>Demo:</b>{" "}
         <a
           className="hyper-link"
           onClick={() =>
@@ -171,16 +231,15 @@ const Portfolio = () => {
           }
         >
           https://react-redux-task-manager.herokuapp.com/
-        </a>
-        <br />
-        <b>GitHub:</b>{" "}
+        </a> */}
+        {/* <br /> */}
+        {/* <b>GitHub:</b>{" "} */}
+        <b>Video:</b>{" "}
         <a
           className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/8020Coding/task-manager", "_blank")
-          }
+          onClick={() => window.open("https://vimeo.com/555818973", "_blank")}
         >
-          https://github.com/
+          https://vimeo.com/KrewSystemSMS
         </a>
       </>
     );
@@ -204,9 +263,10 @@ const Portfolio = () => {
           <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
             <img
               className="portfolio-image"
-              src={netflix}
+              src={ImgReactIcon}
               alt="Netflix Clone Project..."
             />
+            <h5>catsSoft.pl website</h5>
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
@@ -214,9 +274,10 @@ const Portfolio = () => {
           <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
             <img
               className="portfolio-image"
-              src={cityGuide}
+              src={ImgPortfolioWeb}
               alt="City Guide Project..."
             />
+            <h5>lukaszkot.biz website</h5>
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
@@ -224,9 +285,10 @@ const Portfolio = () => {
           <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
             <img
               className="portfolio-image"
-              src={portfolio}
+              src={ImgPressPlay}
               alt="Portfolio React and Material UI Project..."
             />
+            <h5>KrewSystem App</h5>
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
@@ -237,9 +299,10 @@ const Portfolio = () => {
           >
             <img
               className="portfolio-image"
-              src={taskManager}
+              src={ImgWebsite}
               alt="Task Manager React and Redux Project..."
             />
+            <h5>KrewSystem.Sms App</h5>
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>

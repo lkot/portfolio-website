@@ -5,7 +5,7 @@ import VenturesCarousel from "./VenturesCarousel";
 const Ventures = () => {
   return (
     <div id="ventures" className="ventures">
-      <h1>Ventures</h1>
+      <h1>Ventures & Challenges</h1>
       <div className="container">
         <div className="ventures-content">
           <VenturesCarousel />

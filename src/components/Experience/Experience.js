@@ -6,7 +6,7 @@ const Experience = () => {
     <div id="experience" className="experience">
       {/* These e.g. classes below are the Bootstrap classes. */}
       <div className="d-flex justify-content-center my-5">
-        <h1>Education & Experience</h1>
+        <h1>Education & Experience Timeline</h1>
       </div>
       <div className="container experience-wrapper">
         {/* - */}
@@ -14,10 +14,13 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             {/* <h3>October 2012 - March 2017</h3> */}
-            <h3>2012 - 2015</h3>
+            <h3>2012 ~ 2015</h3>
             <h4>University of Zielona Góra | Poland</h4>
             <h5>Computer Science graduate with Bachelor of Science degree. </h5>
-            <p>Studies conducted with specialisation in Network IT Systems.</p>
+            <p>
+              Studies conducted with specialization in Networked Computer
+              Systems.
+            </p>
 
             <hr />
 
@@ -43,29 +46,16 @@ const Experience = () => {
           </div>
         </div>
         {/* - */}
-        {/* <div className="timeline-block timeline-block-left">
-          <div className="marker"></div>
-          <div className="timeline-content">
-            <h3>2014-2015</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-              omnis laboriosam odio deserunt reprehenderit optio cum ratione
-              sequi pariatur deleniti iste perspiciatis officiis minima iusto
-              hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque
-              delectus asperiores et quas qui.
-            </p>
-          </div>
-        </div> */}
-        {/* - */}
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2015 - 2016</h3>
+            <h3>2015 ~ 2016</h3>
             <h4>Gap year - Journey around the World</h4>
             <h5>Venture included:</h5>
             <p>· Establishing collaboration with multiple sponsors.</p>
             <p>
-              · Collaboration with National Television - broadcasting episodes.
+              · Collaboration with National Television - editing & broadcasting
+              episodes from our teams' adventures.
             </p>
             <p>
               · Establishing collaboration with Rafał Sonik as our honour
@@ -77,7 +67,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2016 - 2017</h3>
+            <h3>2016 ~ 2017</h3>
             {/* <h4>March 2017</h4> */}
             <h4>Computer Science studies graduated.</h4>
             <h5>BSc thesis' final project - KrewSystem Application</h5>
@@ -91,20 +81,10 @@ const Experience = () => {
             <p>
               The application's functionality is based on the ASP.NET MVC 5
               framework (written in C# language) along with the use of
-              EntityFramework 6 for database connection. Other technologies,
-              frameworks and libraries used: HTML, CSS, JavaScript, Bootstrap,
+              EntityFramework for database connection. Other technologies,
+              frameworks and libraries used: HTML5, CSS3, JavaScript, Bootstrap,
               Transact-SQL, etc.
             </p>
-
-            {/* <hr />
-
-            <h4>April 2017 - September 2017</h4>
-            <h5>Intern Software Developer | catsSoft IT Systems</h5>
-            <p>
-              Developing applications and functionalities based on ASP.NET MVC 5
-              framework, along with technologies such as HTML/CSS, Bootstrap or
-              EntityFramework.
-            </p> */}
           </div>
         </div>
 
@@ -113,12 +93,12 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2017</h3>
-            <h4>April 2017 - September 2017</h4>
+            <h4>April 2017 ~ September 2017</h4>
             <h5>Intern Software Developer | catsSoft IT Systems</h5>
             <p>
-              Developing applications and functionalities based on ASP.NET MVC 5
-              framework, along with technologies such as HTML5, CSS3, Bootstrap
-              or EntityFramework.
+              • Developing & implementing applications' functionalities based on
+              the ASP.NET MVC 5 framework along with technologies such as HTML
+              5, CSS 3, Bootstrap and EntityFramework.
             </p>
             <hr />
             <h4>May 2017</h4>
@@ -133,28 +113,39 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2017 - 2020</h3>
+            <h3>2017 ~ 2019</h3>
             {/* <h4>October 2017</h4> */}
             <h4>Over 2 years stay in Australia.</h4>
-            <h5>Various jobs not related with IT, including:</h5>
+            <h5>Various jobs in non-IT related industries, including:</h5>
             <p>
               · Food and Beverage Attendant in 5-Star Ayers Rock Resort (Yulara,
               Northern Territory, Australia)
             </p>
-            <p>
-              · Exclusive Pensions' Painter (Sydney, New South Wales, Australia)
-            </p>
-            <p>
-              · Banana Plantation Worker (Atherton, Far North Queensland,
-              Australia)
-            </p>
+            <p>· Commercial Painter (Sydney, New South Wales, Australia)</p>
+            <p>· Banana Plantation Worker (Atherton, Queensland, Australia)</p>
           </div>
         </div>
+
         {/* - */}
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2020 - 2021</h3>
+            <h3>2019 ~ 2020</h3>
+            {/* <h4>October 2017</h4> */}
+            <h4>October 2019 ~ March 2020</h4>
+            <h5>Half-year stay in the United Kingdom for work purposes.</h5>
+            <p>
+              · Data Analyst / Machine Operator at The Amtico Co Ltd (Coventry,
+              West Midlands, England)
+            </p>
+          </div>
+        </div>
+
+        {/* - */}
+        <div className="timeline-block timeline-block-left">
+          <div className="marker"></div>
+          <div className="timeline-content">
+            <h3>2020 ~ 2021</h3>
             <h4>February 2020</h4>
             <p>
               TOEIC (Test of English of International Communication) - C2 level
@@ -163,25 +154,29 @@ const Experience = () => {
 
             <hr />
 
-            <h4>April 2020 - Currently</h4>
-            <h4>Part-time Junior Software Developer</h4>
+            <h4>April 2020 ~ Currently</h4>
+            <h4>Junior Software Developer</h4>
             <h5>catsSoft IT Systems</h5>
             <p>
-              Developing applications and functionalities based on ASP.NET MVC 5
-              framework, along with technologies such as HTML/CSS, Bootstrap or
-              EntityFramework.
+              • Developing & implementing graphical user interfaces using the
+              ReactJS library.
+            </p>
+            <p>
+              • Developing applications' functionalities based on ASP.NET MVC 5
+              framework, along with technologies such as HTML5, CSS 3, Bootstrap
+              and EntityFramework.
             </p>
 
             <hr />
 
-            <h4>October 2020 - Currently</h4>
-            <h4>Kozminski University | Warsaw | Poland</h4>
-            <h5>Part-time Master of Science studies.</h5>
+            <h4>October 2020 ~ Currently</h4>
+            <h4>Koźminski University | Warsaw | Poland</h4>
+            <h5>Part-time Master of Science studies during weekends.</h5>
             <p>
-              Faculty of Master in Management with specialisation in Project
+              Faculty of Master in Management with specialization in Project
               Management.
             </p>
-            <p> Studies conducted entirely in English language.</p>
+            <p>Studies conducted entirely in English language.</p>
           </div>
         </div>
       </div>

@@ -79,3 +79,35 @@
     /* color: var(--primary-skyblue); */
     font-weight: 500;
   }
+
+/************* MEDIA *************/
+
+@media screen and (max-width: 768px){
+
+  .experience h1 {
+  font-size: 1.5rem !important;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .timeline-content h3 {
+    font-size: 1rem !important;
+    font-weight: 900;
+  }
+
+  .timeline-content h4 {
+    font-size: .9rem !important;
+    font-weight: 700;
+  }
+
+  .timeline-content h5 {
+    font-size: .8rem !important;
+    font-weight: 500;
+  }
+
+  .timeline-content p {
+    font-size: .7rem !important;
+    font-weight: 500;
+  }
+}

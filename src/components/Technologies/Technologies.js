@@ -25,7 +25,7 @@ const Technologies = () => {
       <h1 className="py-5">Frameworks, Libraries & Technologies</h1>
       <div className="container">
         <div className="row">
-          <div className="col-lg-2 col-md-auto col-sm-6">
+          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faReact} size="2x" />
@@ -35,16 +35,7 @@ const Technologies = () => {
             </div>
           </div>
           {/* - */}
-          <div className="col-lg-2 col-md-auto col-sm-6">
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faCss3Alt} size="2x" />
-              </div>
-              <h3>CSS 3</h3>
-              {/* <p>ReactJS apps.</p> */}
-            </div>
-          </div>
-          <div className="col-lg-2 col-md-auto col-sm-6">
+          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faHtml5} size="2x" />
@@ -53,7 +44,18 @@ const Technologies = () => {
               {/* <p>ReactJS apps.</p> */}
             </div>
           </div>
-          <div className="col-lg-2 col-md-auto col-sm-6">
+          {/* - */}
+          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
+            <div className="box">
+              <div className="circle">
+                <FontAwesomeIcon className="icon" icon={faCss3Alt} size="2x" />
+              </div>
+              <h3>CSS 3</h3>
+              {/* <p>ReactJS apps.</p> */}
+            </div>
+          </div>
+          {/* - */}
+          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon
@@ -67,7 +69,7 @@ const Technologies = () => {
             </div>
           </div>
           {/* - */}
-          <div className="col-lg-2 col-md-auto col-sm-6">
+          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faJsSquare} size="2x" />
@@ -76,7 +78,7 @@ const Technologies = () => {
               {/* <p>ReactJS apps.</p>{" "} */}
             </div>
           </div>
-          <div className="col-lg-2 col-md-auto col-sm-6">
+          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon
@@ -93,7 +95,7 @@ const Technologies = () => {
         </div>
         {/* - */}
         <div className="row">
-          <div className="col-lg-2 col-md-auto col-sm-6">
+          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
@@ -103,7 +105,7 @@ const Technologies = () => {
             </div>
           </div>
           {/* - */}
-          <div className="col-lg-2 col-md-auto col-sm-6">
+          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faNpm} size="2x" />
@@ -113,7 +115,7 @@ const Technologies = () => {
             </div>
           </div>
           {/* - */}
-          <div className="col-lg-2 col-md-auto col-sm-6">
+          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
@@ -123,7 +125,7 @@ const Technologies = () => {
             </div>
           </div>
           {/* - */}
-          <div className="col-lg-2 col-md-auto col-sm-6">
+          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon
@@ -137,7 +139,7 @@ const Technologies = () => {
             </div>
           </div>
           {/* - */}
-          <div className="col-lg-2 col-md-auto col-sm-6">
+          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faUsb} size="2x" />
@@ -147,7 +149,7 @@ const Technologies = () => {
             </div>
           </div>
           {/* - */}
-          <div className="col-lg-2 col-md-auto col-sm-6">
+          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faDatabase} size="2x" />

@@ -13,54 +13,34 @@ const NewNavbar = () => {
         <a class="navbar-brand" href="#">
           Navbar
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDarkDropdown"
-          aria-controls="navbarNavDarkDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+
         <div class="dropdown">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="navbar-toggler"
             type="button"
-            id="dropdownMenuButton2"
-            data-bs-toggle="dropdown"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDarkDropdown"
+            aria-controls="navbarNavDarkDropdown"
             aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            Dropdown button
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <ul
-            class="dropdown-menu dropdown-menu-dark"
-            aria-labelledby="dropdownMenuButton2"
-          >
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
             <li>
-              <a class="dropdown-item active" href="#">
+              <button class="dropdown-item" type="button">
                 Action
-              </a>
+              </button>
             </li>
             <li>
-              <a class="dropdown-item" href="#">
+              <button class="dropdown-item" type="button">
                 Another action
-              </a>
+              </button>
             </li>
             <li>
-              <a class="dropdown-item" href="#">
+              <button class="dropdown-item" type="button">
                 Something else here
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider" />
-              ddd
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">
-                Separated link
-              </a>
+              </button>
             </li>
           </ul>
         </div>

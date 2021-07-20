@@ -19,7 +19,12 @@ const TestimonialsCarousel = () => {
       interval={8000}
     >
       <>
-        <img src={avatar1} alt="John Doe 1" />
+        <img
+          className="imgCarousel"
+          display="none"
+          src={avatar1}
+          alt="John Doe 1"
+        />
         <div className="myCarousel">
           <h3>New Zealand & Australia Solo Challenge</h3>
           <p>
@@ -29,7 +34,7 @@ const TestimonialsCarousel = () => {
         </div>
       </>
       <>
-        <img src={avatar2} alt="Jane Doe 2" />
+        <img className="imgCarousel" src={avatar2} alt="Jane Doe 2" />
         <div className="myCarousel">
           <h3>Journey Around the World</h3>
           <p>
@@ -53,7 +58,7 @@ const TestimonialsCarousel = () => {
         </div>
       </>
       <>
-        <img src={avatar3} alt="John Doe 3" />
+        <img className="imgCarousel" src={avatar3} alt="John Doe 3" />
         <div className="myCarousel">
           <h3>Organizer of Travel Festival</h3>
           <p>
@@ -66,9 +71,9 @@ const TestimonialsCarousel = () => {
         </div>
       </>
       <>
-        <img src={avatar4} alt="John Doe 4" />
+        <img className="imgCarousel" src={avatar4} alt="John Doe 4" />
         <div className="myCarousel">
-          <h3>Endeavours</h3>
+          <h3>Endeavours & Hobbys</h3>
           <p>
             In years 2013 and 2014 I’ve completed the Ironman 70.3 triathlon in
             Austria and Poland, repectively.

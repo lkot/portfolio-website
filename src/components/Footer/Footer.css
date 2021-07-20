@@ -17,5 +17,25 @@
   }
   
   .footer p {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
+  }
+
+  .footer-icon{
+    margin: 1rem;
+  }
+
+  .footer-icon:hover{
+    color: var(--primary-standard-blue);
+    transition:  .2s ease-in-out;
+    transform: scale(1.1);
+  }
+
+  .footer-email{
+    margin-bottom: 1rem;
+  }
+
+  .footer-email:hover{
+    color: var(--primary-standard-blue);
+    transition:  .2s ease-in-out;
+    transform: scale(1.1);
   }

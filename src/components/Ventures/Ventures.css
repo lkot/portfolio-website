@@ -77,11 +77,58 @@
     margin-top: 3% !important;
   }
 
-  /* @media(max-width: 768px) {
-    .ventures{
+  @media(max-width: 768px) {
+
+    .ventures h1 {
+      color: var(--primary-standard-blue);
+      padding: 1rem;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+    }
+
+    .myCarousel h3 {
+      font-size: 1rem;
+    }
+
+    .myCarousel p {
+      font-size: 0.7rem;
+    } 
+
+    .myCarousel a{
+      font-size: 0.7rem;
+    }
+
+    .imgCarousel {
+      /* max-width: 50%;
+      max-height: 50%; */
+      /* display: none; */
+    }
+    /* .ventures{
       height: 100%;
     }
     .portfolio-image-popupbox{
       width:50%;
+    } */
+  }
+
+  @media screen and (max-width: 767px), 
+  screen and (max-height: 480px) {
+
+    .myCarousel h3 {
+      font-size: 0.7rem;
     }
-  } */
+
+    .myCarousel p {
+      font-size: 0.5rem;
+    } 
+
+    .myCarousel a{
+      font-size: 0.5rem;
+    }
+
+    .imgCarousel img{
+      /* max-width: 50%;
+      max-height: 50%; */
+      display: none;
+    }
+}

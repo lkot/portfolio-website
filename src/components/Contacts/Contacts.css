@@ -46,17 +46,37 @@
     height: 12.2rem !important;
   }
   
-  .contact-btn {
+  /* .contact-btn {
     margin: 1rem 0 0 0;
     width: 100%;
     background: none;
-    color: var(--primary-black);
-    background: var(--primary-light-grey);
+    color: var(--primary-white);
+    background: var(--primary-standard-blue);
   }
   
   .contact-btn:hover {
+    color: var(--primary-black);
+    background: var(--primary-white);
+  } */
+
+  .contact-btn {
+    /* border: 1px solid var(--primary-red); */
+    width: 100%;
+    background: none;
+    margin: .5rem 0 0 0;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     color: var(--primary-white);
     background: var(--primary-standard-blue);
+  }
+  
+  .contact-btn:hover {
+    text-decoration: none;
+    color: var(--primary-black);
+    background: var(--primary-white);
+    transition:  .2s ease-in-out;
+    transform: scale(1.05);
   }
   
   .line {
@@ -94,6 +114,15 @@
   
   /*---------------- MEDIA -----------------------*/
   @media(max-width: 768px) {
+
+    .contacts h1 {
+      font-size: 1.5rem;
+    }
+
+    .contacts p {
+      font-size: 1rem;
+    }
+
     .contacts {
       overflow-x: hidden;
     }

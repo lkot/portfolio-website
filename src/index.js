@@ -2,10 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter as Router } from "react-router-dom";
+import HttpsRedirect from "react-https-redirect";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Router> */}
+    <HttpsRedirect>
+      <App />
+    </HttpsRedirect>
+    {/* </Router> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
