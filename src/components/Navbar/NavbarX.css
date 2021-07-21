@@ -48,7 +48,7 @@ nav {
 	margin-top: 20px;
 }
 
-.nav-link {
+/* .nav-link { */
 	/* margin-right: .5rem; */
 	/* letter-spacing: .05rem !important; */
 	/* -webkit-box-shadow: 0px 20px 20px -20px #1fb8ff;
@@ -56,7 +56,7 @@ nav {
 	/* box-shadow: 0px 20px 20px -20px #1fb8ff;   */
 	/* box-shadow: 0 0px 30px #1fb8ff; */
 	/* box-shadow: 0px 1px 8px 1px #1fb8ff inset; */
-}
+/* } */
 
 .nav-link:hover {
 	border-top: 0.15rem solid #00d7ff;

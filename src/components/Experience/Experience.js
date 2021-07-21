@@ -10,7 +10,6 @@ const Experience = () => {
 
 	return (
 		<div id='experience' className='experience'>
-			{/* These e.g. classes below are the Bootstrap classes. */}
 			<div className='d-flex justify-content-center my-5'>
 				<h1>Education & Experience Timeline</h1>
 			</div>
@@ -19,7 +18,6 @@ const Experience = () => {
 				<div className='timeline-block timeline-block-left'>
 					<div className='marker' data-aos='fade-down'></div>
 					<div className='timeline-content' data-aos='slide-right'>
-						{/* <h3>October 2012 - March 2017</h3> */}
 						<h3>2012 ~ 2015</h3>
 						<h4>University of Zielona Góra | Poland</h4>
 						<h5>Computer Science graduate with Bachelor of Science degree. </h5>
@@ -74,7 +72,6 @@ const Experience = () => {
 					<div className='marker' data-aos='zoom-in'></div>
 					<div className='timeline-content' data-aos='slide-right'>
 						<h3>2016 ~ 2017</h3>
-						{/* <h4>March 2017</h4> */}
 						<h4>Computer Science studies graduated.</h4>
 						<h5>BSc thesis' final project - KrewSystem Application</h5>
 						<p>
@@ -120,7 +117,6 @@ const Experience = () => {
 					<div className='marker' data-aos='zoom-in'></div>
 					<div className='timeline-content' data-aos='slide-right'>
 						<h3>2017 ~ 2019</h3>
-						{/* <h4>October 2017</h4> */}
 						<h4>Over 2 years stay in Australia.</h4>
 						<h5>Various jobs in non-IT related industries, including:</h5>
 						<p>
@@ -137,7 +133,6 @@ const Experience = () => {
 					<div className='marker' data-aos='zoom-in'></div>
 					<div className='timeline-content' data-aos='slide-left'>
 						<h3>2019 ~ 2020</h3>
-						{/* <h4>October 2017</h4> */}
 						<h4>October 2019 ~ June 2020</h4>
 						<h5>9-months stay in the United Kingdom for work purposes.</h5>
 						<p>

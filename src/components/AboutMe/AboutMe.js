@@ -60,13 +60,6 @@ const AboutMe = () => {
 							life, I split between Zielona Góra, Wrocław and Warsaw.
 							<br />
 							<br />
-							{/* W tym okresie stworzyłem niezwykle przydatną aplikację
-              KrewSystem pozwalającą na zdigitalizowaną rejestrację krwiodawców
-              oddziałach terenowych Regionalnego Centrum Krwiodawstwa i
-              Krwiolecznictwa na terenie województwa Lubuskiego. Przyczyniło się
-              to do szybszej i sprawniejszej obsługi krwiodawców oraz wszelkich
-              operacji z tym związanych, co niewątpliwie ma ogromne znaczenie w
-              przypadku ratowania ludzkiego życia.  */}
 							My first programming steps after graduation were related with C#
 							language. I have been developing applications based on the ASP.NET
 							MVC framework.
@@ -205,10 +198,6 @@ const AboutMe = () => {
 						<a className='pdf-link' href={DiplomaPOL} target='_blank'>
 							Diploma
 						</a>
-						{/* {"   ·   "}
-            <a className="pdf-link" href={CurriculumViate} target="_blank">
-              Diploma Supplement
-            </a> */}
 					</div>
 				</div>
 

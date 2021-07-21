@@ -5,7 +5,6 @@ import logo from "./logo-luk-kot-SD-2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
-// import $ from "jquery";
 
 const Navbar = () => {
   return (
@@ -130,19 +129,4 @@ const Navbar = () => {
   );
 };
 
-// $("#navbarSupportedContent a:not(.dropdown-toggle)").click(function () {
-//   $("#navbarSupportedContent").collapse("hide");
-// });
-
-// $("#navbarSupportedContent").on("show.bs.collapse", function () {
-//   $("a.nav-link").click(function () {
-//     $("#navbarSupportedContent").collapse("hide");
-//   });
-// });
-
-// $(document).ready(function () {
-//   $(".navbar-nav li.trigger-collapse a").click(function (event) {
-//     $(".navbar-collapse").collapse("hide");
-//   });
-// });
 export default Navbar;

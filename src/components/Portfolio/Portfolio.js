@@ -32,14 +32,14 @@ const Portfolio = () => {
 	//   else myVideo.pause();
 	// }
 
-	// Netflix
-	const openPopupboxNetflix = () => {
+	// Catssoft Webpage
+	const openPopupboxCatssoft = () => {
 		const content = (
 			<>
 				<img
 					className='portfolio-image-popupbox'
 					src={ImgReactIcon}
-					alt='Netflix Clone Project...'
+					alt='Catssoft Clone Project...'
 				/>
 				<hr />
 				<div className='portfolio-techs'>
@@ -74,7 +74,7 @@ const Portfolio = () => {
 		PopupboxManager.open({ content });
 	};
 
-	const popupboxConfigNetflix = {
+	const popupboxConfigCatssoft = {
 		titleBar: {
 			enable: true,
 			text: 'Portfolio Projects.',
@@ -83,14 +83,14 @@ const Portfolio = () => {
 		fadeInSpeed: 500,
 	};
 
-	// City Guide App
-	const openPopupboxCityGuide = () => {
+	// My own portfolio website
+	const openPopupboxPortfolioWebsite = () => {
 		const content = (
 			<>
 				<img
 					className='portfolio-image-popupbox'
 					src={ImgPortfolioWeb}
-					alt='City Guide App Project...'
+					alt='Portfolio website...'
 				/>
 				<hr />
 				<div className='portfolio-techs'>
@@ -120,7 +120,7 @@ const Portfolio = () => {
 		PopupboxManager.open({ content });
 	};
 
-	const popupboxConfigCityGuide = {
+	const popupboxConfigPortfolioWebsite = {
 		titleBar: {
 			enable: true,
 			text: 'Portfolio Projects.',
@@ -129,14 +129,14 @@ const Portfolio = () => {
 		fadeInSpeed: 500,
 	};
 
-	// Portfolio Project
-	const openPopupboxPortfolio = () => {
+	// Krew System App
+	const openPopupboxKrewSystemApp = () => {
 		const content = (
 			<>
 				<img
 					className='portfolio-image-popupbox'
 					src={ImgPressPlay}
-					alt='Portfolio Project...'
+					alt='Krew System App...'
 				/>
 				<hr />
 				<div className='portfolio-techs'>
@@ -176,7 +176,7 @@ const Portfolio = () => {
 		PopupboxManager.open({ content });
 	};
 
-	const popupboxConfigPortfolio = {
+	const popupboxConfigKrewSystemApp = {
 		titleBar: {
 			enable: true,
 			text: 'Portfolio Projects.',
@@ -185,8 +185,8 @@ const Portfolio = () => {
 		fadeInSpeed: 500,
 	};
 
-	// Task Manager React and Redux Project
-	const openPopupboxTaskManager = () => {
+	// Krew System SMS application
+	const openPopupboxKrewSystemSMS = () => {
 		const content = (
 			<>
 				{/* <img
@@ -252,7 +252,7 @@ const Portfolio = () => {
 		PopupboxManager.open({ content });
 	};
 
-	const popupboxConfigTaskManager = {
+	const popupboxConfigKrewSystemSMS = {
 		titleBar: {
 			enable: true,
 			text: 'Portfolio Projects.',
@@ -270,12 +270,12 @@ const Portfolio = () => {
 						className='portfolio-image-box'
 						data-aos='zoom-in'
 						data-aos-delay='100'
-						onClick={openPopupboxNetflix}
+						onClick={openPopupboxCatssoft}
 					>
 						<img
 							className='portfolio-image'
 							src={ImgReactIcon}
-							alt='Netflix Clone Project...'
+							alt='Catssoft Clone Project...'
 						/>
 						<h5>catsSoft.pl website</h5>
 						<div className='overflow'></div>
@@ -286,7 +286,7 @@ const Portfolio = () => {
 						className='portfolio-image-box'
 						data-aos='zoom-in'
 						data-aos-delay='200'
-						onClick={openPopupboxCityGuide}
+						onClick={openPopupboxPortfolioWebsite}
 					>
 						<img
 							className='portfolio-image'
@@ -302,12 +302,12 @@ const Portfolio = () => {
 						className='portfolio-image-box'
 						data-aos='zoom-in'
 						data-aos-delay='150'
-						onClick={openPopupboxPortfolio}
+						onClick={openPopupboxKrewSystemApp}
 					>
 						<img
 							className='portfolio-image'
 							src={ImgPressPlay}
-							alt='Portfolio React and Material UI Project...'
+							alt='Krew System App...'
 						/>
 						<h5>KrewSystem App</h5>
 						<div className='overflow'></div>
@@ -318,12 +318,12 @@ const Portfolio = () => {
 						className='portfolio-image-box'
 						data-aos='zoom-in'
 						data-aos-delay='250'
-						onClick={openPopupboxTaskManager}
+						onClick={openPopupboxKrewSystemSMS}
 					>
 						<img
 							className='portfolio-image'
 							src={ImgWebsite}
-							alt='Task Manager React and Redux Project...'
+							alt='Krew System SMS...'
 						/>
 						<h5>KrewSystem.Sms App</h5>
 						<div className='overflow'></div>
@@ -332,10 +332,10 @@ const Portfolio = () => {
 				</div>
 			</div>
 			<div>
-				<PopupboxContainer {...popupboxConfigNetflix} />
-				<PopupboxContainer {...popupboxConfigCityGuide} />
-				<PopupboxContainer {...popupboxConfigPortfolio} />
-				<PopupboxContainer {...popupboxConfigTaskManager} />
+				<PopupboxContainer {...popupboxConfigCatssoft} />
+				<PopupboxContainer {...popupboxConfigPortfolioWebsite} />
+				<PopupboxContainer {...popupboxConfigKrewSystemApp} />
+				<PopupboxContainer {...popupboxConfigKrewSystemSMS} />
 			</div>
 		</div>
 	);

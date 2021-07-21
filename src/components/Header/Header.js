@@ -1,12 +1,11 @@
 import React, { useEffect } from 'react';
 import Typed from 'react-typed';
-import ButtonHover from './../Button';
+import ButtonHover from '../Buttons/Button';
 // import "./../ButtonStyles.css";
 import './Header.css';
 import { Link } from 'react-scroll';
-import ContactButton from '../ContactButton';
+import ContactButton from '../Buttons/ContactButton';
 import authorImg from '../../avatar-transparent.png';
-import myselfImg from '../../myself-transparent.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -30,13 +29,13 @@ const Header = () => {
 					src={authorImg}
 					alt='author...'
 					data-aos='fade-down'
-					data-aos-delay='100'
+					data-aos-delay='500'
 				/>
 				{/* </div> */}
-				<h1 data-aos='fade-down' data-aos-delay='200'>
+				<h1 data-aos='fade-down' data-aos-delay='300'>
 					Hey, I'm Łukasz the Junior Frontend Developer.
 				</h1>
-				<h1 data-aos='fade-down' data-aos-delay='300'>
+				<h1 data-aos='fade-down' data-aos-delay='100'>
 					Let's work together!
 				</h1>
 				{/* Using React-Typed package to display 'writing text animation'. */}
@@ -60,10 +59,6 @@ const Header = () => {
 					backSpeed={60}
 					loop
 				/>
-				{/* Later on I'll refactor the code for Router Links. */}
-				{/* <a href="/contacts" className="btn-main-offer">
-          contact me
-        </a> */}
 				<Link
 					smooth={true}
 					to='contacts'
