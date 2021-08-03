@@ -46,6 +46,8 @@ const AboutMe = () => {
 								{' '}
 								looking for a vacancy as a Junior Frontend Developer.{' '}
 							</span>
+							<br />
+							<br />
 							I’ve{' '}
 							<span className='bold-text'>
 								graduated Informatics on the University of Zielona Góra with
@@ -110,6 +112,8 @@ const AboutMe = () => {
 								A team work in professional, yet funny atmosphere, is something
 								I value the most!
 							</span>{' '}
+							<br />
+							<br />
 							I also happily undertake individual challenges. Demanding tasks
 							certainly are no stranger to me. I reckon that all of the ventures
 							I have undertaken so far speak for themselves. They show, that
