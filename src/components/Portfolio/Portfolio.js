@@ -134,14 +134,18 @@ const Portfolio = () => {
 		const content = (
 			<>
 				<img
-					className='portfolio-image-popupbox'
+					className='portfolio-image-popupbox portfolio-mobile-image-display'
 					src={ImgPressPlay}
 					alt='Krew System App...'
+				/>
+				<Vimeo
+					video='584767575'
+					className='vimeo-video portfolio-mobile-video-display'
 				/>
 				<hr />
 				<div className='portfolio-techs'>
 					<b>Frameworks, technologies & libraries used: </b>{' '}
-					<p>ASP.NET MVC 5 • EntityFramework • HTML5 • CSS3 • Bootstrap.</p>
+					<p>ASP.NET MVC 5 • EntityFramework • HTML5 • CSS3 • Bootstrap</p>
 				</div>
 				<p>
 					KrewSystem is a further development of Blood Donation Center System
@@ -167,7 +171,7 @@ const Portfolio = () => {
 				<b>Video:</b>{' '}
 				<a
 					className='hyper-link'
-					onClick={() => window.open('https://vimeo.com/555818973', '_blank')}
+					onClick={() => window.open('https://vimeo.com/584767575', '_blank')}
 				>
 					https://vimeo.com/KrewSystem
 				</a>
@@ -189,11 +193,11 @@ const Portfolio = () => {
 	const openPopupboxKrewSystemSMS = () => {
 		const content = (
 			<>
-				{/* <img
-          className="portfolio-image-popupbox"
-          src={ImgWebsite}
-          alt="Task Manager React and Redux Project..."
-        /> */}
+				<img
+					className='portfolio-image-popupbox portfolio-mobile-image-display'
+					src={ImgWebsite}
+					alt='Krew System SMS App...'
+				/>
 				{/* <div>
           <button onClick={playPause}>Play/Pause</button>
           <button onClick="makeBig()">Big</button>
@@ -215,11 +219,14 @@ const Portfolio = () => {
           loop
           type="video/mp4"
         /> */}
-				<Vimeo video='555818973' className='vimeo-video' />
+				<Vimeo
+					video='555818973'
+					className='vimeo-video portfolio-mobile-video-display'
+				/>
 				<hr />
 				<div className='portfolio-techs'>
 					<b>Frameworks, technologies & libraries used: </b>{' '}
-					<p>ASP.NET MVC 5 • EntityFramework • HTML5 • CSS3 • Bootstrap.</p>
+					<p>ASP.NET MVC 5 • EntityFramework • HTML5 • CSS3 • Bootstrap</p>
 				</div>
 				<p>
 					KrewSystem.Sms is a further further development of existing Blood

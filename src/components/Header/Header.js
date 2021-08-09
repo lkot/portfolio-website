@@ -43,12 +43,13 @@ const Header = () => {
 					className='typed-text'
 					strings={[
 						'ReactJS',
-						'ASP.NET MVC',
+						'JavaScript',
 						'HTML 5',
 						'CSS 3',
 						'Bootstrap',
+						'SASS',
 						'GitHub',
-						'JavaScript',
+						'ASP.NET MVC',
 						'C#',
 						'Visual Studio Code',
 						'NPM',

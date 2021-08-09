@@ -37,7 +37,7 @@
 	box-shadow: 0 4px 20px #1fb8ff;
 	border: 0px solid var(--primary-standard-blue);
 	border-radius: 10px;
-  /* padding: 0.5em; */
+	/* padding: 0.5em; */
 }
 
 /*------------ OVERFLOW BOX ------------------*/
@@ -96,6 +96,10 @@
 	cursor: pointer;
 }
 
+.portfolio-mobile-image-display {
+	display: none;
+}
+
 .popupbox-wrapper {
 	margin-top: 5rem;
 }
@@ -137,6 +141,12 @@
 	color: var(--primary-red);
 }
 
+/* @media (max-width: 1200px) {
+	.portfolio-mobile-image-display {
+		display: none;
+	}
+} */
+
 @media (max-width: 850px) {
 	.portfolio-wrapper h1 {
 		font-size: 1.5rem;
@@ -169,6 +179,11 @@
 		width: 75vw;
 		font-size: 0.75rem;
 	}
+
+	.portfolio-mobile-image-display {
+		display: none;
+	}
+
 	/* .popupbox-titleBar{
     width: 75%;
     height: 75%;
@@ -192,6 +207,20 @@
 		width: 70vw;
 		font-size: 0.7rem;
 	}
+
+	.portfolio-mobile-video-display {
+		display: none;
+	}
+
+	.portfolio-mobile-image-display {
+		display: flex;
+		width: 40%;
+		height: 40%;
+	}
+
+	/* .portfolio-mobile-image {
+		display: flex;
+	} */
 	/* .popupbox-titleBar{
     width: 60vw;
 

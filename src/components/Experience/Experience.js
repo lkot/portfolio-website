@@ -155,7 +155,7 @@ const Experience = () => {
 
 						<hr />
 
-						<h4>July 2020 ~ Currently</h4>
+						<h4>August 2020 ~ Currently</h4>
 						<h4>Junior Software Developer</h4>
 						<h5>catsSoft IT Systems</h5>
 						<p>

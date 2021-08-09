@@ -12,6 +12,7 @@ import {
 	faCuttlefish,
 	faConnectdevelop,
 	faUsb,
+	faSass,
 } from '@fortawesome/free-brands-svg-icons';
 import {
 	faDatabase,
@@ -100,12 +101,12 @@ const Technologies = () => {
 							<div className='circle'>
 								<FontAwesomeIcon
 									className='icon'
-									icon={faCuttlefish}
+									icon={faSass}
 									size='2x'
 								/>
 							</div>
 
-							<h3>C Sharp</h3>
+							<h3>SASS</h3>
 						</div>
 					</div>
 				</div>
@@ -159,11 +160,11 @@ const Technologies = () => {
 							<div className='circle'>
 								<FontAwesomeIcon
 									className='icon'
-									icon={faNetworkWired}
+									icon={faCuttlefish}
 									size='2x'
 								/>
 							</div>
-							<h3>ASP.NET</h3>
+							<h3>C Sharp</h3>
 						</div>
 					</div>
 					{/* - */}
@@ -174,9 +175,9 @@ const Technologies = () => {
 					>
 						<div className='box'>
 							<div className='circle'>
-								<FontAwesomeIcon className='icon' icon={faUsb} size='2x' />
+								<FontAwesomeIcon className='icon' icon={faNetworkWired} size='2x' />
 							</div>
-							<h3>EF Core</h3>
+							<h3>ASP.NET</h3>
 						</div>
 					</div>
 					{/* - */}
