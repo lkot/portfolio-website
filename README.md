@@ -3,7 +3,6 @@
 
 1. [General Information](#general-info)
 2. [Technologies Used](#technologies)
-<!-- 1. [Sub paragraph](#subparagraph1) -->
 3. [Overview Screenshots](#screenshots)
 
 ## General Information <a name="general-info"></a>
