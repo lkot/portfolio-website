@@ -1,5 +1,6 @@
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
+import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Particles from 'react-particles-js';
 import Navbar from './components/Navbar/Navbar';
@@ -11,8 +12,8 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Ventures from './components/Ventures/Ventures';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
-import { useState } from 'react';
 import NavbarX from './components/Navbar/NavbarX';
+import CookieConsent from 'react-cookie-consent';
 
 function App() {
 	//Function setIs is updating a isOpen - it's a setter
@@ -70,6 +71,24 @@ function App() {
 			<Ventures />
 			<Contacts />
 			<Footer />
+			<CookieConsent
+				style={{
+					background: 'black',
+					width: '50%',
+					borderRadius: '8px',
+					transform: 'translate(50%)',
+					marginBottom: '16px',
+					opacity: '0.9',
+				}}
+				buttonStyle={{
+					color: '#000',
+					backgroundColor: '#1fb8ff',
+					fontSize: '13px',
+					borderRadius: '8px',
+				}}
+			>
+				This website uses cookies.
+			</CookieConsent>
 		</>
 	);
 }
