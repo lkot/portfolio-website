@@ -54,7 +54,7 @@ const AboutMe = () => {
 								Bachelor’s degree.{' '}
 							</span>
 							In 2020 I’ve decided to broaden my academic portfolio by
-							undertaking part-time Master in Management studies an the
+							undertaking part-time Master in Management studies at the
 							Koźmiński University in Warsaw. Studies are conducted fully in
 							English language with specialization in Project Management. At the
 							moment I am working remotely implementing projects for the
@@ -221,9 +221,9 @@ const AboutMe = () => {
 								I have already acquired experience working with both back-end
 								and front-end.
 							</span>{' '}
-							Right after graduating from engineering studies, I worked my work
-							at the catsSoft IT Systems company as a Junior Software Developer.
-							Mainly developing the previously implemented KrewSystem
+							Right after graduating from engineering studies, I worked at the
+							catsSoft IT Systems company as an Intern Software Developer. Mainly
+							developing & maintaining the previously implemented KrewSystem
 							application.
 							<br />
 							<br />
@@ -242,7 +242,7 @@ const AboutMe = () => {
 								with demanding clients who expected the highest standard of
 								service.{' '}
 							</span>
-							Thanks to this experience,{' '}
+							Thanks to this experience{' '}
 							<span className='bold-text'>
 								{' '}
 								I have no problems with communication or understanding

@@ -159,8 +159,8 @@ const Experience = () => {
 						<h4>Junior Software Developer</h4>
 						<h5>catsSoft IT Systems</h5>
 						<p>
-							• Developing & implementing graphical user interfaces using the
-							ReactJS library.
+							• Developing & implementing graphical user interfaces using tech
+							stack as follows: ReactJS, HTML5, CSS3, JavaScript & Bootstrap.
 						</p>
 						<p>
 							• Developing applications' functionalities based on ASP.NET MVC 5
