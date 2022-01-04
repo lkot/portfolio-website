@@ -78,12 +78,12 @@ function App() {
 					borderRadius: '8px',
 					transform: 'translate(50%)',
 					marginBottom: '16px',
+					fontSize: '12px',
 					opacity: '0.9',
 				}}
 				buttonStyle={{
 					color: '#000',
 					backgroundColor: '#1fb8ff',
-					fontSize: '13px',
 					borderRadius: '8px',
 				}}
 			>

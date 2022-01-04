@@ -31,7 +31,7 @@ body {
 }
 
 /*-------- PARTICLES JS ---------------*/
-/* This is the class of particles from the ParticlesJS, I had to overwritten it. */
+/* This is the class of particles from the ParticlesJS, I had to overwrite it. */
 .tsparticles-canvas-el {
 	position: absolute;
 	height: 100vh;
@@ -87,4 +87,5 @@ body {
 	.portfolio-image-popupbox {
 		width: 30%;
 	}
+
 }
