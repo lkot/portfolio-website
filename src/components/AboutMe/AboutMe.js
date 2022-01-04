@@ -31,8 +31,8 @@ const AboutMe = () => {
 				<div className='row'>
 					<div
 						className='col-lg-6 col-xm-12'
-						data-aos='fade-right'
-						data-aos-delay='250'
+						data-aos='zoom-in'
+						data-aos-delay='100'
 					>
 						<p>
 							<hr />
@@ -93,8 +93,8 @@ const AboutMe = () => {
 					</div>
 					<div
 						className='col-lg-6 col-xm-12'
-						data-aos='fade-left'
-						data-aos-delay='250'
+						data-aos='zoom-in'
+						data-aos-delay='100'
 					>
 						<p>
 							<hr />
@@ -162,8 +162,8 @@ const AboutMe = () => {
 				<div className='row'>
 					<div
 						className='col-lg-6 col-xm-12'
-						data-aos='fade-right'
-						data-aos-delay='400'
+						data-aos='zoom-in'
+						data-aos-delay='100'
 					>
 						<hr />
 						<h4>English documents preview</h4>
@@ -190,8 +190,8 @@ const AboutMe = () => {
 
 					<div
 						className='col-lg-6 col-xm-12'
-						data-aos='fade-left'
-						data-aos-delay='400'
+						data-aos='zoom-in'
+						data-aos-delay='100'
 					>
 						<hr />
 						<h4>Polish documents preview</h4>
@@ -208,8 +208,8 @@ const AboutMe = () => {
 				<div className='row'>
 					<div
 						className='col-lg-12 col-xm-12'
-						data-aos='fade-up'
-						data-aos-delay='200'
+						data-aos='zoom-in'
+						data-aos-delay='100'
 					>
 						<p>
 							<hr />
@@ -222,9 +222,9 @@ const AboutMe = () => {
 								and front-end.
 							</span>{' '}
 							Right after graduating from engineering studies, I worked at the
-							catsSoft IT Systems company as an Intern Software Developer. Mainly
-							developing & maintaining the previously implemented KrewSystem
-							application.
+							catsSoft IT Systems company as an Intern Software Developer.
+							Mainly developing & maintaining the previously implemented
+							KrewSystem application.
 							<br />
 							<br />
 							In addition, during my{' '}
