@@ -57,9 +57,9 @@ const AboutMe = () => {
 							undertaking part-time Master in Management studies at the
 							Koźmiński University in Warsaw. Studies are conducted fully in
 							English language with specialization in Project Management. At the
-							moment I am working remotely implementing projects for the
-							catsSoft IT Systems company. My private, as well as professional
-							life, I split between Zielona Góra, Wrocław and Warsaw.
+							moment I am developing my Frontend Developer's skills by
+							implementing my own projects. Private, as well as professional
+							life, I split between Zielona Góra and Warsaw.
 							<br />
 							<br />
 							My first programming steps after graduation were related with C#
@@ -137,7 +137,7 @@ const AboutMe = () => {
 							(link in the ‘Ventures’ section). Spending entire time, throught
 							so many months, in same car or same tent, with the same group of
 							people and not killing each other, on the contrary – a great team
-							work, it speaks for itself 😉
+							work, it speaks for itself. 😉
 							<br />
 							<br />
 							<span className='bold-text'> Reaching out to sponsors</span> and
@@ -269,11 +269,11 @@ const AboutMe = () => {
 							</span>
 							<br />
 							<br />
-							After coming back from Australia,{' '}
+							After coming back to Poland,{' '}
 							<span className='bold-text'>
 								{' '}
 								I resumed my career as a Junior Software Developer with an
-								emphasis on web development.
+								emphasis on the web development.
 							</span>{' '}
 							In addtition to many front-end aimed courses,{' '}
 							<span className='bold-text'>

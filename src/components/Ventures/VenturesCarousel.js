@@ -75,8 +75,7 @@ const TestimonialsCarousel = () => {
         <div className="myCarousel">
           <h3>Endeavours & Hobbys</h3>
           <p>
-            In years 2013 and 2014 I’ve completed the Ironman 70.3 triathlon in
-            Austria and Poland, repectively.
+            In years 2013, 2014 and 2021 I’ve completed the Ironman 70.3 triathlon, twice in Poland and once in Austria.
           </p>
           <p>
             In August 2017 I have ascended Caucasian five-thousander – Mount

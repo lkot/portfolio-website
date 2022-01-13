@@ -133,8 +133,8 @@ const Experience = () => {
 					<div className='marker' data-aos='zoom-in'></div>
 					<div className='timeline-content' data-aos='slide-left'>
 						<h3>2019 ~ 2020</h3>
-						<h4>October 2019 ~ June 2020</h4>
-						<h5>9-months stay in the United Kingdom for work purposes.</h5>
+						<h4>October 2019 ~ September 2020</h4>
+						<h5>1-year stay in the United Kingdom for work purposes.</h5>
 						<p>
 							· Data Analyst / Machine Operator at The Amtico Co Ltd (Coventry,
 							West Midlands, England)
@@ -155,17 +155,21 @@ const Experience = () => {
 
 						<hr />
 
-						<h4>August 2020 ~ Currently</h4>
+						<h4>January 2021 ~ July 2021</h4>
 						<h4>Junior Software Developer</h4>
-						<h5>catsSoft IT Systems</h5>
+						<h5>at catsSoft IT Systems</h5>
 						<p>
 							• Developing & implementing graphical user interfaces using tech
-							stack as follows: ReactJS, HTML5, CSS3, JavaScript & Bootstrap.
+							stack as follows: JavaScript, HTML5, CSS3, ReactJS & Bootstrap.
 						</p>
+
+						<hr />
+
+						<h4>December 2021 ~ Currently</h4>
+						<h4>English Tutor</h4>
+						<h5>at Tutlo.pl</h5>
 						<p>
-							• Developing applications' functionalities based on ASP.NET MVC 5
-							framework, along with technologies such as HTML5, CSS 3, Bootstrap
-							and EntityFramework.
+							Part-time job as an English Teacher on the first such an online platform in Poland - working with kids, teenagers & adult professionals.
 						</p>
 
 						<hr />
