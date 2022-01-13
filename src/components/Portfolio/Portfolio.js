@@ -4,7 +4,10 @@ import ImgPressPlay from '../../images/img_press_play.svg';
 import ImgPortfolioWeb from '../../images/img_portfolio_website.svg';
 import ImgReactIcon from '../../images/img_react.svg';
 import ImgWebsite from '../../images/img_static_website.svg';
-// import VideoExample from "../../videos/examplary-video.mp4";
+import ImgKnightri from '../../images/img_knightri.svg';
+import ImgWeather from '../../images/img_weather.svg';
+import ImgCrypto from '../../images/img_crypto.svg';
+import ImgFinance from '../../images/img_finance.svg';
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
@@ -19,18 +22,6 @@ const Portfolio = () => {
 	useEffect(() => {
 		AOS.init({ duration: 2000, once: true });
 	}, []);
-
-	// const [playPause, setPlayPause] = useState(false);
-	// const changeNav = () => {
-
-	// };
-
-	// var myVideo = document.getElementById("myVideo");
-
-	// function playPause() {
-	//   if (myVideo.paused) myVideo.play();
-	//   else myVideo.pause();
-	// }
 
 	// Catssoft Webpage
 	const openPopupboxCatssoft = () => {
@@ -129,6 +120,211 @@ const Portfolio = () => {
 		fadeInSpeed: 500,
 	};
 
+	// Knightri Triathlon Team
+	const openPopupboxKnightri = () => {
+		const content = (
+			<>
+				<img
+					className='portfolio-image-popupbox'
+					src={ImgKnightri}
+					alt='Knightri Triathlon Team...'
+				/>
+				<hr />
+				<div className='portfolio-techs'>
+					<b>Frameworks, technologies & libraries used: </b>{' '}
+					<p>Vanilla JavaScript • HTML5 • CSS3 • SASS • GULP</p>
+				</div>
+				<p>
+					The mock website for fictitious triathlon team. Project implemented to
+					practice designing & implementing modern, dynamic single web pages.
+					The project has been programmed using 'mobile-first' & RWD approach.
+				</p>
+				<b>Website:</b>{' '}
+				<a
+					className='hyper-link'
+					onClick={() => window.open('https://knightri.pl/', '_blank')}
+				>
+					https://knightri.pl/
+				</a>
+				<br />
+				<b>GitHub:</b>{' '}
+				<a
+					className='hyper-link'
+					onClick={() =>
+						window.open('https://github.com/lkot/triteam-webpage', '_blank')
+					}
+				>
+					https://github.com/lkot/triteam-webpage
+				</a>
+			</>
+		);
+		PopupboxManager.open({ content });
+	};
+
+	const popupboxConfigKnightri = {
+		titleBar: {
+			enable: true,
+			text: 'Portfolio Projects.',
+		},
+		fadeIn: true,
+		fadeInSpeed: 500,
+	};
+
+	// Vanilla Weather App
+	const openPopupboxWeatherApp = () => {
+		const content = (
+			<>
+				<img
+					className='portfolio-image-popupbox'
+					src={ImgWeather}
+					alt='Vanilla Weather App...'
+				/>
+				<hr />
+				<div className='portfolio-techs'>
+					<b>Frameworks, technologies & libraries used: </b>{' '}
+					<p>Vanilla JavaScript • HTML5 • CSS3 • Axios • REST API</p>
+				</div>
+				<p>
+					Vanilla Weather App is an application displaying 7 day forecast for
+					any city in the World. Application has been implemented to practice
+					utilizing of axios and establishing connection with REST API.
+				</p>
+				<b>Demo:</b>{' '}
+				<a
+					className='hyper-link'
+					onClick={() =>
+						window.open('https://lkot.github.io/vanilla-weather-app/', '_blank')
+					}
+				>
+					https://lkot.github.io/vanilla-weather-app/
+				</a>
+				<br />
+				<b>GitHub:</b>{' '}
+				<a
+					className='hyper-link'
+					onClick={() =>
+						window.open('https://github.com/lkot/portfolio-website', '_blank')
+					}
+				>
+					https://github.com/lkot/vanilla-weather-app
+				</a>
+			</>
+		);
+		PopupboxManager.open({ content });
+	};
+
+	const popupboxConfigWeatherApp = {
+		titleBar: {
+			enable: true,
+			text: 'Portfolio Projects.',
+		},
+		fadeIn: true,
+		fadeInSpeed: 500,
+	};
+
+	// Cryptocurrencies App
+	const openPopupboxCryptoApp = () => {
+		const content = (
+			<>
+				<img
+					className='portfolio-image-popupbox'
+					src={ImgCrypto}
+					alt='Cryptocurrencies App...'
+				/>
+				<hr />
+				<div className='portfolio-techs'>
+					<b>Frameworks, technologies & libraries used: </b>{' '}
+					<p>ReactJS • HTML5 • CSS3 • Axios • RESTful API</p>
+				</div>
+				<p>
+					Application displaying up-to-date cryptocurrencies' data. Project
+					implemented to practice utilizing of ReactJS framework, along with the
+					usage of React Hooks, Axios and a RESTful API.
+				</p>
+				<b>Demo:</b>{' '}
+				<a
+					className='hyper-link'
+					onClick={() =>
+						window.open('https://lkot.github.io/currency-react-app/', '_blank')
+					}
+				>
+					https://lkot.github.io/currency-react-app/
+				</a>
+				<br />
+				<b>GitHub:</b>{' '}
+				<a
+					className='hyper-link'
+					onClick={() =>
+						window.open('https://github.com/lkot/currency-react-app', '_blank')
+					}
+				>
+					https://github.com/lkot/currency-react-app
+				</a>
+			</>
+		);
+		PopupboxManager.open({ content });
+	};
+
+	const popupboxConfigCryptoApp = {
+		titleBar: {
+			enable: true,
+			text: 'Portfolio Projects.',
+		},
+		fadeIn: true,
+		fadeInSpeed: 500,
+	};
+
+	// Finance Buddy App
+	const openPopupboxFinanceBuddyApp = () => {
+		const content = (
+			<>
+				<img
+					className='portfolio-image-popupbox'
+					src={ImgFinance}
+					alt='Finance Buddy App...'
+				/>
+				<hr />
+				<div className='portfolio-techs'>
+					<b>Frameworks, technologies & libraries used: </b>{' '}
+					<p>ReactJS • React Hooks • HTML5 • CSS3 • Context API</p>
+				</div>
+				<p>
+					CRUD application to keep track of one's own budget implemented using
+					ReactJS including React Hooks and Context API.
+				</p>
+				<b>Demo:</b>{' '}
+				<a
+					className='hyper-link'
+					onClick={() =>
+						window.open('https://lkot.github.io/finance-buddy-app/', '_blank')
+					}
+				>
+					https://lkot.github.io/finance-buddy-app/
+				</a>
+				<br />
+				<b>GitHub:</b>{' '}
+				<a
+					className='hyper-link'
+					onClick={() =>
+						window.open('https://github.com/lkot/finance-buddy-app', '_blank')
+					}
+				>
+					https://github.com/lkot/finance-buddy-app
+				</a>
+			</>
+		);
+		PopupboxManager.open({ content });
+	};
+
+	const popupboxConfigFinanceBuddyApp = {
+		titleBar: {
+			enable: true,
+			text: 'Portfolio Projects.',
+		},
+		fadeIn: true,
+		fadeInSpeed: 500,
+	};
+
 	// Krew System App
 	const openPopupboxKrewSystemApp = () => {
 		const content = (
@@ -154,20 +350,6 @@ const Portfolio = () => {
 					dedicated for local departments of Lubuskie region located in 5 other
 					cities.
 				</p>
-				{/* <b>Demo:</b>{" "}
-        <a
-          className="hyper-link"
-          onClick={() =>
-            window.open(
-              "https://portfolio-rea-and-material-ui.herokuapp.com/",
-              "_blank"
-            )
-          }
-        >
-          https://portfolio-rea-and-material-ui.herokuapp.com/
-        </a>
-        <br /> */}
-				{/* <b>GitHub:</b>{" "} */}
 				<b>Video:</b>{' '}
 				<a
 					className='hyper-link'
@@ -190,89 +372,55 @@ const Portfolio = () => {
 	};
 
 	// Krew System SMS application
-	const openPopupboxKrewSystemSMS = () => {
-		const content = (
-			<>
-				<img
-					className='portfolio-image-popupbox portfolio-mobile-image-display'
-					src={ImgWebsite}
-					alt='Krew System SMS App...'
-				/>
-				{/* <div>
-          <button onClick={playPause}>Play/Pause</button>
-          <button onClick="makeBig()">Big</button>
-          <button onClick="makeSmall()">Small</button>
-          <button onClick="makeNormal()">Normal</button>
-          <video
-            id="myVideo"
-            className="portfolio-image-popupbox"
-            src={VideoExample}
-            autoPlay
-            loop
-            type="video/mp4"
-          />
-        </div> */}
-				{/* <video
-          className="portfolio-image-popupbox"
-          src={VideoExample}
-          autoPlay
-          loop
-          type="video/mp4"
-        /> */}
-				<Vimeo
-					video='555818973'
-					className='vimeo-video portfolio-mobile-video-display'
-				/>
-				<hr />
-				<div className='portfolio-techs'>
-					<b>Frameworks, technologies & libraries used: </b>{' '}
-					<p>ASP.NET MVC 5 • EntityFramework • HTML5 • CSS3 • Bootstrap</p>
-				</div>
-				<p>
-					KrewSystem.Sms is a further further development of existing Blood
-					Donation Center. An application which main functionality is to send
-					various short text messages as a notification for donors.
-				</p>
-				{/* <b>Demo:</b>{" "}
-        <a
-          className="hyper-link"
-          onClick={() =>
-            window.open(
-              "https://react-redux-task-manager.herokuapp.com/",
-              "_blank"
-            )
-          }
-        >
-          https://react-redux-task-manager.herokuapp.com/
-        </a> */}
-				{/* <br /> */}
-				{/* <b>GitHub:</b>{" "} */}
-				<b>Video:</b>{' '}
-				<a
-					className='hyper-link'
-					onClick={() => window.open('https://vimeo.com/555818973', '_blank')}
-				>
-					https://vimeo.com/KrewSystemSMS
-				</a>
-			</>
-		);
-		PopupboxManager.open({ content });
-	};
+	// const openPopupboxKrewSystemSMS = () => {
+	// 	const content = (
+	// 		<>
+	// 			<img
+	// 				className='portfolio-image-popupbox portfolio-mobile-image-display'
+	// 				src={ImgWebsite}
+	// 				alt='Krew System SMS App...'
+	// 			/>
+	// 			<Vimeo
+	// 				video='555818973'
+	// 				className='vimeo-video portfolio-mobile-video-display'
+	// 			/>
+	// 			<hr />
+	// 			<div className='portfolio-techs'>
+	// 				<b>Frameworks, technologies & libraries used: </b>{' '}
+	// 				<p>ASP.NET MVC 5 • EntityFramework • HTML5 • CSS3 • Bootstrap</p>
+	// 			</div>
+	// 			<p>
+	// 				KrewSystem.Sms is a further further development of existing Blood
+	// 				Donation Center. An application which main functionality is to send
+	// 				various short text messages as a notification for donors.
+	// 			</p>
+	// 			<b>Video:</b>{' '}
+	// 			<a
+	// 				className='hyper-link'
+	// 				onClick={() => window.open('https://vimeo.com/555818973', '_blank')}
+	// 			>
+	// 				https://vimeo.com/KrewSystemSMS
+	// 			</a>
+	// 		</>
+	// 	);
+	// 	PopupboxManager.open({ content });
+	// };
 
-	const popupboxConfigKrewSystemSMS = {
-		titleBar: {
-			enable: true,
-			text: 'Portfolio Projects.',
-		},
-		fadeIn: true,
-		fadeInSpeed: 500,
-	};
+	// const popupboxConfigKrewSystemSMS = {
+	// 	titleBar: {
+	// 		enable: true,
+	// 		text: 'Portfolio Projects.',
+	// 	},
+	// 	fadeIn: true,
+	// 	fadeInSpeed: 500,
+	// };
 
 	return (
 		<div id='portfolio' className='portfolio-wrapper'>
 			<div className='container'>
 				<h1 className='text-uppercase text-center py-5'>Projects' Portfolio</h1>
 				<div className='image-box-wrapper row justify-content-center'>
+					{/* - CATSSOFT.PL */}
 					<div
 						className='portfolio-image-box'
 						data-aos='zoom-in'
@@ -288,7 +436,7 @@ const Portfolio = () => {
 						<div className='overflow'></div>
 						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
 					</div>
-					{/* - */}
+					{/* - LUKASZKOT.BIZ */}
 					<div
 						className='portfolio-image-box'
 						data-aos='zoom-in'
@@ -304,7 +452,71 @@ const Portfolio = () => {
 						<div className='overflow'></div>
 						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
 					</div>
-					{/* - */}
+					{/* --- KNIGHTRI --- */}
+					<div
+						className='portfolio-image-box'
+						data-aos='zoom-in'
+						data-aos-delay='200'
+						onClick={openPopupboxKnightri}
+					>
+						<img
+							className='portfolio-image'
+							src={ImgKnightri}
+							alt='Knightri website...'
+						/>
+						<h5>knightri.pl website</h5>
+						<div className='overflow'></div>
+						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+					</div>
+					{/* --- VANILLA WEATHER APP --- */}
+					<div
+						className='portfolio-image-box'
+						data-aos='zoom-in'
+						data-aos-delay='200'
+						onClick={openPopupboxWeatherApp}
+					>
+						<img
+							className='portfolio-image'
+							src={ImgWeather}
+							alt='Weather app...'
+						/>
+						<h5>Weather app</h5>
+						<div className='overflow'></div>
+						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+					</div>
+					{/* --- CRYPTOCURRENCIES --- */}
+					<div
+						className='portfolio-image-box'
+						data-aos='zoom-in'
+						data-aos-delay='200'
+						onClick={openPopupboxCryptoApp}
+					>
+						<img
+							className='portfolio-image'
+							src={ImgCrypto}
+							alt='Crypto app...'
+						/>
+						<h5>Crypto app</h5>
+						<div className='overflow'></div>
+						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+					</div>
+					{/* --- FINANCE BUDDY --- */}
+					<div
+						className='portfolio-image-box'
+						data-aos='zoom-in'
+						data-aos-delay='200'
+						onClick={openPopupboxFinanceBuddyApp}
+					>
+						<img
+							className='portfolio-image'
+							src={ImgFinance}
+							alt='FinanceBuddy app...'
+						/>
+						<h5>FinanceBuddy app</h5>
+						<div className='overflow'></div>
+						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+					</div>
+					{/* --- KrewSystem APP --- */}
 					<div
 						className='portfolio-image-box'
 						data-aos='zoom-in'
@@ -316,12 +528,12 @@ const Portfolio = () => {
 							src={ImgPressPlay}
 							alt='Krew System App...'
 						/>
-						<h5>KrewSystem App</h5>
+						<h5>KrewSystem app</h5>
 						<div className='overflow'></div>
 						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
 					</div>
-					{/* - */}
-					<div
+					{/* --- KrewSystem.SMS APP --- */}
+					{/* <div
 						className='portfolio-image-box'
 						data-aos='zoom-in'
 						data-aos-delay='250'
@@ -332,17 +544,21 @@ const Portfolio = () => {
 							src={ImgWebsite}
 							alt='Krew System SMS...'
 						/>
-						<h5>KrewSystem.Sms App</h5>
+						<h5>KrewSystem.Sms app</h5>
 						<div className='overflow'></div>
 						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<div>
 				<PopupboxContainer {...popupboxConfigCatssoft} />
 				<PopupboxContainer {...popupboxConfigPortfolioWebsite} />
+				<PopupboxContainer {...popupboxConfigKnightri} />
+				<PopupboxContainer {...popupboxConfigWeatherApp} />
+				<PopupboxContainer {...popupboxConfigCryptoApp} />
+				<PopupboxContainer {...popupboxConfigFinanceBuddyApp} />
 				<PopupboxContainer {...popupboxConfigKrewSystemApp} />
-				<PopupboxContainer {...popupboxConfigKrewSystemSMS} />
+				{/* <PopupboxContainer {...popupboxConfigKrewSystemSMS} /> */}
 			</div>
 		</div>
 	);
