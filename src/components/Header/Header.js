@@ -42,19 +42,17 @@ const Header = () => {
 				<Typed
 					className='typed-text'
 					strings={[
-						'ReactJS',
 						'JavaScript',
 						'HTML 5',
 						'CSS 3',
-						'Bootstrap',
 						'SASS',
-						'GitHub',
-						'ASP.NET MVC',
-						'C#',
-						'Visual Studio Code',
+						'ReactJS',
+						'Bootstrap',
 						'NPM',
-						'Entity Framework',
-						'MySQL',
+						'Visual Studio Code',
+						'Responsive Web Design',
+						'BEM Methodology',
+						'GULP',
 					]}
 					typeSpeed={40}
 					backSpeed={60}
