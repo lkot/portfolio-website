@@ -13,11 +13,13 @@ import {
 	faConnectdevelop,
 	faUsb,
 	faSass,
+	faGulp,
 } from '@fortawesome/free-brands-svg-icons';
 import {
 	faDatabase,
 	faCode,
 	faNetworkWired,
+	faLaptop,
 } from '@fortawesome/free-solid-svg-icons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -32,12 +34,17 @@ const Technologies = () => {
 			<h1 className='py-5'>Frameworks, Libraries & Technologies</h1>
 			<div className='container'>
 				<div className='row'>
-					<div className='col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6'>
-						<div className='box' data-aos='flip-left' data-aos-delay='100'>
+					{/* - */}
+					<div
+						className='col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6'
+						data-aos='flip-left'
+						data-aos-delay='100'
+					>
+						<div className='box'>
 							<div className='circle'>
-								<FontAwesomeIcon className='icon' icon={faReact} size='2x' />
+								<FontAwesomeIcon className='icon' icon={faJsSquare} size='2x' />
 							</div>
-							<h3>ReactJS</h3>
+							<h3>JavaScript</h3>
 						</div>
 					</div>
 					{/* - */}
@@ -70,28 +77,22 @@ const Technologies = () => {
 					>
 						<div className='box'>
 							<div className='circle'>
-								<FontAwesomeIcon
-									className='icon'
-									icon={faBootstrap}
-									size='2x'
-								/>
+								<FontAwesomeIcon className='icon' icon={faSass} size='2x' />
 							</div>
-							<h3>Bootstrap</h3>
+
+							<h3>SASS</h3>
 						</div>
 					</div>
 					{/* - */}
-					<div
-						className='col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6'
-						data-aos='flip-left'
-						data-aos-delay='500'
-					>
-						<div className='box'>
+					<div className='col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6'>
+						<div className='box' data-aos='flip-left' data-aos-delay='500'>
 							<div className='circle'>
-								<FontAwesomeIcon className='icon' icon={faJsSquare} size='2x' />
+								<FontAwesomeIcon className='icon' icon={faReact} size='2x' />
 							</div>
-							<h3>JavaScript</h3>
+							<h3>ReactJS</h3>
 						</div>
 					</div>
+					{/* - */}
 					<div
 						className='col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6'
 						data-aos='flip-left'
@@ -101,12 +102,11 @@ const Technologies = () => {
 							<div className='circle'>
 								<FontAwesomeIcon
 									className='icon'
-									icon={faSass}
+									icon={faBootstrap}
 									size='2x'
 								/>
 							</div>
-
-							<h3>SASS</h3>
+							<h3>Bootstrap</h3>
 						</div>
 					</div>
 				</div>
@@ -158,16 +158,12 @@ const Technologies = () => {
 					>
 						<div className='box'>
 							<div className='circle'>
-								<FontAwesomeIcon
-									className='icon'
-									icon={faCuttlefish}
-									size='2x'
-								/>
+								<FontAwesomeIcon className='icon' icon={faLaptop} size='2x' />
 							</div>
-							<h3>C Sharp</h3>
+							<h3>RWD</h3>
 						</div>
 					</div>
-					{/* - */}
+					{/* --- ASP.NET --- */}
 					<div
 						className='col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6'
 						data-aos='flip-left'
@@ -175,12 +171,16 @@ const Technologies = () => {
 					>
 						<div className='box'>
 							<div className='circle'>
-								<FontAwesomeIcon className='icon' icon={faNetworkWired} size='2x' />
+								<FontAwesomeIcon
+									className='icon'
+									icon={faNetworkWired}
+									size='2x'
+								/>
 							</div>
-							<h3>ASP.NET</h3>
+							<h3>BEM</h3>
 						</div>
 					</div>
-					{/* - */}
+					{/* --- MySQL --- */}
 					<div
 						className='col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6'
 						data-aos='flip-left'
@@ -188,10 +188,10 @@ const Technologies = () => {
 					>
 						<div className='box'>
 							<div className='circle'>
-								<FontAwesomeIcon className='icon' icon={faDatabase} size='2x' />
+								<FontAwesomeIcon className='icon' icon={faGulp} size='2x' />
 							</div>
 
-							<h3>MySQL</h3>
+							<h3>GULP</h3>
 						</div>
 					</div>
 					{/* - */}
