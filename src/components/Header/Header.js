@@ -47,12 +47,14 @@ const Header = () => {
 						'CSS 3',
 						'SASS',
 						'ReactJS',
+						'Styled Components',
 						'Bootstrap',
+						'Git',
+						'GitHub',
 						'NPM',
-						'Visual Studio Code',
 						'Responsive Web Design',
 						'BEM Methodology',
-						'GULP',
+						'Visual Studio Code',
 					]}
 					typeSpeed={40}
 					backSpeed={60}

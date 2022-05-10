@@ -23,7 +23,6 @@ const AboutMe = () => {
 	}, []);
 
 	return (
-		//    These e.g. "container py-5" classes are the Bootstrap classes.
 		<div id='about' className='about'>
 			<div className='container py-5'>
 				{/* <h1 className="about-heading">about me</h1> */}
@@ -70,10 +69,10 @@ const AboutMe = () => {
 							However,{' '}
 							<span className='bold-text'>
 								{' '}
-								since the second part of year 2020 I’ve focused strictly on
+								since the beginnig of year 2021 I’ve focused strictly on
 								bettering my skills in web development
 							</span>
-							. Simply due to the fact that this branch of IT sector brings me
+							. Simply due to the fact that this branch of IT industry brings me
 							the most fun.
 							<br />
 							<br />
