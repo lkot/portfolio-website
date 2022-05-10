@@ -2,6 +2,7 @@ import './App.css';
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Particles from 'react-particles-js';
+import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import AboutMe from './components/AboutMe/AboutMe';
 import Technologies from './components/Technologies/Technologies';
