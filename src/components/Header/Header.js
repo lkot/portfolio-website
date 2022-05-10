@@ -31,7 +31,6 @@ const Header = () => {
 					data-aos='fade-down'
 					data-aos-delay='500'
 				/>
-				{/* </div> */}
 				<h1 data-aos='fade-down' data-aos-delay='300'>
 					Hey, I'm Łukasz the Junior Frontend Developer.
 				</h1>

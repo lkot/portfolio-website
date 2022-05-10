@@ -1,9 +1,7 @@
 import './App.css';
-import { Route, Switch } from 'react-router-dom';
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Particles from 'react-particles-js';
-import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import AboutMe from './components/AboutMe/AboutMe';
 import Technologies from './components/Technologies/Technologies';
@@ -28,18 +26,6 @@ function App() {
 
 	return (
 		<>
-			{/* <Switch>
-        <Route path="/home" component={Header} />
-        <Route path="/about" component={AboutMe} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/technologies" component={Technologies} />
-        <Route path="/experience" component={Experience} />
-        <Route path="/ventures" component={Ventures} />
-        <Route path="/contacts" component={Contacts} />
-        <Route path="/footer" component={Footer} />
-        <Route exact path="/" component={Header} />
-      </Switch> */}
-
 			<Particles
 				className='particles-canvas'
 				params={{

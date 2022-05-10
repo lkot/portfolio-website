@@ -1,7 +1,4 @@
-// import classes from "*.module.sass";
 import React, { useEffect } from 'react';
-import authorImg from '../../avatar-transparent.png';
-// import DownloadPDF from "../ReactPDF/ReactPDF";
 import './AboutMe.css';
 import cvENG from './CV-Lukasz-Kot-ENG.pdf';
 import cvPOL from './CV-Lukasz-Kot-POL.pdf';

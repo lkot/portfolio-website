@@ -371,50 +371,6 @@ const Portfolio = () => {
 		fadeInSpeed: 500,
 	};
 
-	// Krew System SMS application
-	// const openPopupboxKrewSystemSMS = () => {
-	// 	const content = (
-	// 		<>
-	// 			<img
-	// 				className='portfolio-image-popupbox portfolio-mobile-image-display'
-	// 				src={ImgWebsite}
-	// 				alt='Krew System SMS App...'
-	// 			/>
-	// 			<Vimeo
-	// 				video='555818973'
-	// 				className='vimeo-video portfolio-mobile-video-display'
-	// 			/>
-	// 			<hr />
-	// 			<div className='portfolio-techs'>
-	// 				<b>Frameworks, technologies & libraries used: </b>{' '}
-	// 				<p>ASP.NET MVC 5 • EntityFramework • HTML5 • CSS3 • Bootstrap</p>
-	// 			</div>
-	// 			<p>
-	// 				KrewSystem.Sms is a further further development of existing Blood
-	// 				Donation Center. An application which main functionality is to send
-	// 				various short text messages as a notification for donors.
-	// 			</p>
-	// 			<b>Video:</b>{' '}
-	// 			<a
-	// 				className='hyper-link'
-	// 				onClick={() => window.open('https://vimeo.com/555818973', '_blank')}
-	// 			>
-	// 				https://vimeo.com/KrewSystemSMS
-	// 			</a>
-	// 		</>
-	// 	);
-	// 	PopupboxManager.open({ content });
-	// };
-
-	// const popupboxConfigKrewSystemSMS = {
-	// 	titleBar: {
-	// 		enable: true,
-	// 		text: 'Portfolio Projects.',
-	// 	},
-	// 	fadeIn: true,
-	// 	fadeInSpeed: 500,
-	// };
-
 	return (
 		<div id='portfolio' className='portfolio-wrapper'>
 			<div className='container'>
@@ -532,22 +488,6 @@ const Portfolio = () => {
 						<div className='overflow'></div>
 						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
 					</div>
-					{/* --- KrewSystem.SMS APP --- */}
-					{/* <div
-						className='portfolio-image-box'
-						data-aos='zoom-in'
-						data-aos-delay='250'
-						onClick={openPopupboxKrewSystemSMS}
-					>
-						<img
-							className='portfolio-image'
-							src={ImgWebsite}
-							alt='Krew System SMS...'
-						/>
-						<h5>KrewSystem.Sms app</h5>
-						<div className='overflow'></div>
-						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
-					</div> */}
 				</div>
 			</div>
 			<div>
